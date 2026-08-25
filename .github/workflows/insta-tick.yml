@@ -1,0 +1,59 @@
+# ============================================================
+# Grey Insta Auto-Post · Zeitgeber
+#
+# Feuert zu den vier Posting-Slots von @gray_careers einen Tick
+# an das Make-Szenario "Grey Insta Auto-Post". Make laedt
+# plan.json von insta-bau.green-careers.de und veroeffentlicht
+# die fuer diesen Slot geplanten Posts auf Instagram + Facebook.
+#
+# EIGENER Hook - NICHT der von GreenCareers. Ein fremder Tick
+# wuerde auf dem falschen Account posten.
+#
+# Slots Berlin -> UTC (MESZ, gueltig bis 25.10.2026):
+#   10:00->08   11:00->09   12:00->10   18:00->16
+# Ab Winterzeit (26.10.2026) jede UTC-Stunde um 1 erhoehen.
+#
+# Secret: MAKE_TICK_HOOK = Make-Webhook-URL des Grey-Szenarios
+# ============================================================
+name: Grey Insta Auto-Post Tick
+
+# ⚠️ SCHARFSCHALTUNG: Der Cron ist bis zum Go-live auskommentiert.
+# Vorher wuerde jeder Tick ins Leere laufen (Make-Szenario noch inaktiv) und
+# taeglich Fehlermails ausloesen - genau der Fehler, der beim GC-Studio passiert ist.
+# Zum Scharfschalten: die beiden Cron-Zeilen einkommentieren und pushen.
+on:
+  # schedule:
+  #   - cron: "0 8,9,10,16 * * *"
+  workflow_dispatch:
+    inputs:
+      slot:
+        description: "Slot manuell (HH:MM Berlin)"
+        required: false
+
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Slot bestimmen und Tick senden
+        env:
+          HOOK: ${{ secrets.MAKE_TICK_HOOK }}
+        run: |
+          if [ -z "$HOOK" ]; then
+            echo "::error::Secret MAKE_TICK_HOOK ist nicht gesetzt."
+            exit 1
+          fi
+          if [ -n "${{ github.event.inputs.slot }}" ]; then
+            SLOT="${{ github.event.inputs.slot }}"
+          else
+            H_UTC=$(date -u +%H)
+            case "$H_UTC" in
+              08) SLOT="10:00" ;;
+              09) SLOT="11:00" ;;
+              10) SLOT="12:00" ;;
+              16) SLOT="18:00" ;;
+              *) echo "Kein Slot fuer UTC-Stunde $H_UTC - Ende."; exit 0 ;;
+            esac
+          fi
+          echo "Tick fuer Slot $SLOT"
+          curl --fail-with-body --silent --show-error --max-time 30 "$HOOK?slot=$SLOT"
