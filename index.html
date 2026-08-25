@@ -1,0 +1,722 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>@gray_careers · Monatsplan</title>
+<meta name="robots" content="noindex,nofollow">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root { --o:#EA580C; --glow:#FF8533; --ink:#16191D; --deep:#101419;
+        --light:#F6F5F2; --muted:#8A9099; --line:rgba(246,245,242,.13); }
+* { margin:0; padding:0; box-sizing:border-box }
+body { background:var(--deep); color:var(--light); font-family:Barlow,sans-serif; line-height:1.5 }
+#gate { position:fixed; inset:0; background:var(--deep); display:grid; place-items:center; z-index:99 }
+#gate form { display:flex; flex-direction:column; gap:14px; width:280px; text-align:center }
+#gate input { padding:14px; border-radius:12px; border:1px solid var(--line);
+  background:rgba(246,245,242,.06); color:var(--light); font-size:16px; text-align:center }
+#gate button { padding:14px; border:0; border-radius:12px; background:var(--o); color:#fff;
+  font:700 16px Archivo,sans-serif; cursor:pointer }
+.wrap { max-width:1000px; margin:0 auto; padding:44px 20px 90px }
+h1 { font-family:Archivo,sans-serif; font-weight:800; font-size:32px; letter-spacing:-1.1px }
+.meta { color:var(--muted); font-size:15px; margin-top:6px }
+h2 { font-family:Archivo,sans-serif; font-weight:700; font-size:20px; margin:44px 0 14px;
+  letter-spacing:-.5px }
+.feed { display:grid; grid-template-columns:repeat(3,1fr); gap:4px; max-width:430px }
+.g { position:relative; aspect-ratio:4/5; background-size:cover; background-position:center;
+  border-radius:3px; text-decoration:none }
+.gn { position:absolute; left:6px; bottom:5px; font:700 12px Archivo,sans-serif; color:#fff;
+  text-shadow:0 1px 4px rgba(0,0,0,.8) }
+.gk { position:absolute; right:6px; top:4px; color:#fff; font-size:14px;
+  text-shadow:0 1px 4px rgba(0,0,0,.8) }
+.karte { display:grid; grid-template-columns:300px 1fr; gap:26px; padding:24px 0;
+  border-top:1px solid var(--line) }
+.bilder { display:flex; gap:6px; overflow-x:auto; padding-bottom:6px }
+.bilder img { width:300px; flex:none; border-radius:10px; display:block }
+.kopf { display:flex; flex-wrap:wrap; gap:12px; align-items:baseline; margin-bottom:12px }
+.nr { font:800 20px Archivo,sans-serif; color:var(--glow) }
+.datum { font-weight:600 }
+.typ { color:var(--muted); font-size:14px }
+.caption { font-family:Barlow,sans-serif; font-size:15px; white-space:pre-wrap;
+  background:rgba(246,245,242,.05); border:1px solid var(--line); border-radius:12px;
+  padding:16px; }
+.komm { margin-top:14px; font-size:14px }
+.komm b { color:var(--muted); font-weight:600; font-size:13px; text-transform:uppercase;
+  letter-spacing:.4px }
+.komm ol { margin:8px 0 0 20px }
+.komm li { margin-bottom:5px }
+.komm .leer { color:var(--muted); list-style:none; margin-left:-20px }
+@media (max-width:760px) { .karte { grid-template-columns:1fr } .bilder img { width:240px } }
+</style></head><body>
+
+<div id="gate"><form onsubmit="pruefe(event)">
+  <div style="font:800 22px Archivo,sans-serif">@gray_careers</div>
+  <input type="password" id="pw" placeholder="Passwort" autofocus>
+  <button>Plan ansehen</button>
+</form></div>
+
+<div class="wrap" id="inhalt" style="display:none">
+  <h1>@gray_careers · Monatsplan</h1>
+  <p class="meta">30 Posts · 2026-08-31 bis 2026-09-29 ·
+     51 Bilder ·
+     45 Erst-Kommentare</p>
+
+  <h2>Feed-Vorschau</h2>
+  <div class="feed"><a class="g" href="#p30" style="background-image:url(2026-09-w5-di-brand.jpg)"><span class="gn">30</span></a><a class="g" href="#p29" style="background-image:url(2026-09-w5-mo-aufloesung-azubis.jpg)"><span class="gn">29</span></a><a class="g" href="#p28" style="background-image:url(2026-09-w4-so-ablauf-s1.jpg)"><span class="gn">28</span><span class=gk>❏</span></a><a class="g" href="#p27" style="background-image:url(2026-09-w4-sa-quiz-azubis.jpg)"><span class="gn">27</span></a><a class="g" href="#p26" style="background-image:url(2026-09-w4-fr-quereinstieg.jpg)"><span class="gn">26</span></a><a class="g" href="#p25" style="background-image:url(2026-09-w4-do-rohbau-herbst.jpg)"><span class="gn">25</span></a><a class="g" href="#p24" style="background-image:url(2026-09-w4-mi-montage-s1.jpg)"><span class="gn">24</span><span class=gk>❏</span></a><a class="g" href="#p23" style="background-image:url(2026-09-w4-di-erfolg-hirzle.jpg)"><span class="gn">23</span></a><a class="g" href="#p22" style="background-image:url(2026-09-w4-mo-aufloesung-ecklohn.jpg)"><span class="gn">22</span></a><a class="g" href="#p21" style="background-image:url(2026-09-w3-so-asphalt.jpg)"><span class="gn">21</span></a><a class="g" href="#p20" style="background-image:url(2026-09-w3-sa-quiz-ecklohn.jpg)"><span class="gn">20</span></a><a class="g" href="#p19" style="background-image:url(2026-09-w3-fr-demografie.jpg)"><span class="gn">19</span></a><a class="g" href="#p18" style="background-image:url(2026-09-w3-do-dihk-s1.jpg)"><span class="gn">18</span><span class=gk>❏</span></a><a class="g" href="#p17" style="background-image:url(2026-09-w3-mi-polier-weg-s1.jpg)"><span class="gn">17</span><span class=gk>❏</span></a><a class="g" href="#p16" style="background-image:url(2026-09-w3-di-polier.jpg)"><span class="gn">16</span></a><a class="g" href="#p15" style="background-image:url(2026-09-w3-mo-aufloesung-beschaeftigte.jpg)"><span class="gn">15</span></a><a class="g" href="#p14" style="background-image:url(2026-09-w2-so-ruettelplatte.jpg)"><span class="gn">14</span></a><a class="g" href="#p13" style="background-image:url(2026-09-w2-sa-quiz-beschaeftigte.jpg)"><span class="gn">13</span></a><a class="g" href="#p12" style="background-image:url(2026-09-w2-fr-gleisbau.jpg)"><span class="gn">12</span></a><a class="g" href="#p11" style="background-image:url(2026-09-w2-do-portale-s1.jpg)"><span class="gn">11</span><span class=gk>❏</span></a><a class="g" href="#p10" style="background-image:url(2026-09-w2-mi-azubi.jpg)"><span class="gn">10</span></a><a class="g" href="#p9" style="background-image:url(2026-09-w2-di-erfolg-habers.jpg)"><span class="gn">9</span></a><a class="g" href="#p8" style="background-image:url(2026-09-w2-mo-aufloesung-vakanz.jpg)"><span class="gn">8</span></a><a class="g" href="#p7" style="background-image:url(2026-09-w1-so-montag.jpg)"><span class="gn">7</span></a><a class="g" href="#p6" style="background-image:url(2026-09-w1-sa-quiz-vakanz.jpg)"><span class="gn">6</span></a><a class="g" href="#p5" style="background-image:url(2026-09-w1-fr-sondervermoegen-s1.jpg)"><span class="gn">5</span><span class=gk>❏</span></a><a class="g" href="#p4" style="background-image:url(2026-09-w1-do-vakanzkosten.jpg)"><span class="gn">4</span></a><a class="g" href="#p3" style="background-image:url(2026-09-w1-mi-lohngruppen-s1.jpg)"><span class="gn">3</span><span class=gk>❏</span></a><a class="g" href="#p2" style="background-image:url(2026-09-w1-di-ausschreibung.jpg)"><span class="gn">2</span></a><a class="g" href="#p1" style="background-image:url(2026-09-w1-mo-auftragseingang.jpg)"><span class="gn">1</span></a></div>
+
+  <h2>Alle Posts</h2>
+  
+<article class="karte" id="p1">
+  <div class="bilder"><img src="2026-09-w1-mo-auftragseingang.jpg" loading="lazy" alt="Slide 1"></div>
+  <div class="text">
+    <div class="kopf">
+      <span class="nr">#1</span>
+      <span class="datum">Mo 31.08.2026 · 18:00 Uhr</span>
+      <span class="typ">Einzelbild</span>
+    </div>
+    <pre class="caption">Der Tiefbau hat im Juni 17,8 % mehr Aufträge hereingeholt als ein Jahr zuvor. Der Hochbau 4,3 %.
+
+Das ist keine Momentaufnahme. Das Sondervermögen läuft an, Straßen, Brücken und Leitungsnetze werden gleichzeitig saniert, und die öffentliche Hand vergibt weiter. Für Bauunternehmen heißt das: Die Auftragsbücher füllen sich schneller als die Kolonnen.
+
+Genau daran entscheidet sich 2026, wer die Aufträge auch abarbeiten kann.
+
+👉 bau.green-careers.de
+
+Quelle: Statistisches Bundesamt, Auftragseingang Bauhauptgewerbe Juni 2026 (real, kalenderbereinigt, Betriebe ab 20 Beschäftigten)
+
+#tiefbau #bauhauptgewerbe #baustelle</pre>
+    <div class="komm"><b>Erst-Kommentare</b><ol><li>Wie sieht es bei euch aus – volle Bücher oder ruhige Wochen?</li></ol></div>
+  </div>
+</article>
+<article class="karte" id="p2">
+  <div class="bilder"><img src="2026-09-w1-di-ausschreibung.jpg" loading="lazy" alt="Slide 1"></div>
+  <div class="text">
+    <div class="kopf">
+      <span class="nr">#2</span>
+      <span class="datum">Di 01.09.2026 · 18:00 Uhr</span>
+      <span class="typ">Einzelbild</span>
+    </div>
+    <pre class="caption">Ausschreibung gewonnen. Und die zweite Kolonne startet trotzdem nicht.
+
+Es gibt Betriebe, die 2026 nicht am Auftragsmangel scheitern, sondern an vier fehlenden Leuten. Der Bagger steht, der Verbau liegt bereit, der Termin läuft — und die Mannschaft ist auf der ersten Baustelle gebunden.
+
+Eine unbesetzte Stelle im Bau kostet im Schnitt 79.000 Euro im Jahr. Das ist der höchste Wert aller Branchen, und er entsteht lange bevor die erste Pönale fällig wird.
+
+👉 Link im Profil
+
+Quelle: StepStone, 2024
+
+#tiefbau #bauunternehmen #fachkräftemangel</pre>
+    <div class="komm"><b>Erst-Kommentare</b><ol><li>Welche Position fehlt Ihnen gerade am dringendsten?</li></ol></div>
+  </div>
+</article>
+<article class="karte" id="p3">
+  <div class="bilder"><img src="2026-09-w1-mi-lohngruppen-s1.jpg" loading="lazy" alt="Slide 1"><img src="2026-09-w1-mi-lohngruppen-s2.jpg" loading="lazy" alt="Slide 2"><img src="2026-09-w1-mi-lohngruppen-s3.jpg" loading="lazy" alt="Slide 3"><img src="2026-09-w1-mi-lohngruppen-s4.jpg" loading="lazy" alt="Slide 4"></div>
+  <div class="text">
+    <div class="kopf">
+      <span class="nr">#3</span>
+      <span class="datum">Mi 02.09.2026 · 12:00 Uhr</span>
+      <span class="typ">Karussell · 4 Slides</span>
+    </div>
+    <pre class="caption">Weißt du eigentlich, in welcher Lohngruppe du stehst?
+
+Seit dem 1. April 2026 gilt im Bauhauptgewerbe zum ersten Mal seit der Wiedervereinigung ein einheitlicher Tarif — Ost wie West, gleiche Zahl auf der Abrechnung. Der Ecklohn in Lohngruppe 4 liegt bei 26,05 Euro die Stunde, inklusive Bauzuschlag.
+
+Ein Blick in den Vertrag lohnt sich: Zwischen Lohngruppe 3 und Lohngruppe 4 liegen 2,08 Euro die Stunde. Bei Vollzeit sind das rund 360 Euro brutto im Monat.
+
+👉 bau.green-careers.de
+
+Quelle: Tarifabschluss Bauhauptgewerbe, IG BAU / ZDB / HDB, gültig seit 1. April 2026
+
+#bauhauptgewerbe #tariflohn #baujobs</pre>
+    <div class="komm"><b>Erst-Kommentare</b><ol><li>Fragen zur Einstufung? Stell sie hier – wir antworten ehrlich.</li><li>👍 wenn du weißt, in welcher Lohngruppe du stehst. ❤️ wenn du erst nachschauen musst.</li></ol></div>
+  </div>
+</article>
+<article class="karte" id="p4">
+  <div class="bilder"><img src="2026-09-w1-do-vakanzkosten.jpg" loading="lazy" alt="Slide 1"></div>
+  <div class="text">
+    <div class="kopf">
+      <span class="nr">#4</span>
+      <span class="datum">Do 03.09.2026 · 18:00 Uhr</span>
+      <span class="typ">Einzelbild</span>
+    </div>
+    <pre class="caption">79.000 Euro. So viel kostet eine Stelle, die offen bleibt — pro Jahr.
+
+Das sind rund 6.580 Euro pro Monat, in dem eine Kolonne unterbesetzt fährt: abgelehnte Aufträge, verschobene Termine, Überstunden bei denen, die geblieben sind. Der höchste Wert aller Branchen entsteht im Bau, weil hier jeder fehlende Mann direkt an einem Termin hängt.
+
+Dagegen ist fast jedes Recruiting-Budget die kleinere Zahl.
+
+👉 Link im Profil
+
+Quelle: StepStone, 2024
+
+#bauunternehmen #recruiting #fachkräftemangel</pre>
+    <div class="komm"><b>Erst-Kommentare</b><ol><li>Rechnen Sie das mal auf Ihre offenen Stellen hoch.</li></ol></div>
+  </div>
+</article>
+<article class="karte" id="p5">
+  <div class="bilder"><img src="2026-09-w1-fr-sondervermoegen-s1.jpg" loading="lazy" alt="Slide 1"><img src="2026-09-w1-fr-sondervermoegen-s2.jpg" loading="lazy" alt="Slide 2"><img src="2026-09-w1-fr-sondervermoegen-s3.jpg" loading="lazy" alt="Slide 3"><img src="2026-09-w1-fr-sondervermoegen-s4.jpg" loading="lazy" alt="Slide 4"></div>
+  <div class="text">
+    <div class="kopf">
+      <span class="nr">#5</span>
+      <span class="datum">Fr 04.09.2026 · 12:00 Uhr</span>
+      <span class="typ">Karussell · 4 Slides</span>
+    </div>
+    <pre class="caption">Über 120 Milliarden Euro will der Bund 2026 investieren. Ein großer Teil davon geht in Brücken, Straßen und Schienen.
+
+Das Sondervermögen Infrastruktur umfasst 500 Milliarden Euro bis 2045, 100 Milliarden davon gehen an die Länder. 2025 sind bereits 24 Milliarden abgeflossen, die Investitionen des Bundes lagen 17 Prozent über dem Vorjahr.
+
+Für alle, die im Tiefbau, Brückenbau oder Gleisbau arbeiten, heißt das vor allem eins: Die Arbeit geht in den nächsten Jahren nicht aus.
+
+👉 bau.green-careers.de
+
+Quelle: Bundesregierung, Sondervermögen Infrastruktur und Klimaneutralität
+
+#brückenbau #tiefbau #infrastruktur</pre>
+    <div class="komm"><b>Erst-Kommentare</b><ol><li>Merkt ihr davon schon was auf euren Baustellen?</li><li>Wir fangen an: Brücken und Kanalsanierung ziehen spürbar an. Jetzt ihr.</li></ol></div>
+  </div>
+</article>
+<article class="karte" id="p6">
+  <div class="bilder"><img src="2026-09-w1-sa-quiz-vakanz.jpg" loading="lazy" alt="Slide 1"></div>
+  <div class="text">
+    <div class="kopf">
+      <span class="nr">#6</span>
+      <span class="datum">Sa 05.09.2026 · 10:00 Uhr</span>
+      <span class="typ">Einzelbild</span>
+    </div>
+    <pre class="caption">Wer weiß es? Wie lange bleibt eine offene Stelle im Bauhauptgewerbe im Schnitt unbesetzt?
+
+A, B oder C in die Kommentare. Die Auflösung kommt am Montag — zusammen mit der Zahl, die dahinter steckt.
+
+Kleiner Hinweis vorweg: Es ist deutlich mehr, als die meisten schätzen.
+
+👉 Link im Profil
+
+#bauhauptgewerbe #baustelle #fachkräftemangel</pre>
+    <div class="komm"><b>Erst-Kommentare</b><ol><li>Kleiner Tipp: Es ist die höchste Zahl aller Branchen. 👀</li><li>Auflösung am Montag um 18 Uhr.</li></ol></div>
+  </div>
+</article>
+<article class="karte" id="p7">
+  <div class="bilder"><img src="2026-09-w1-so-montag.jpg" loading="lazy" alt="Slide 1"></div>
+  <div class="text">
+    <div class="kopf">
+      <span class="nr">#7</span>
+      <span class="datum">So 06.09.2026 · 11:00 Uhr</span>
+      <span class="typ">Einzelbild</span>
+    </div>
+    <pre class="caption">Morgen wieder 6 Uhr.
+
+Für die meisten am Bau ist das keine Drohung, sondern einfach der Takt. Was den Unterschied macht, ist der Weg dahin: 15 Minuten oder anderthalb Stunden, jeden Tag, hin und zurück.
+
+Wenn dich das gerade beschäftigt — im Netzwerk stehen Betriebe aus deiner Region.
+
+👉 bau.green-careers.de
+
+#baujobs #tiefbau #strassenbau</pre>
+    <div class="komm"><b>Erst-Kommentare</b><ol><li>Wie lang ist euer Weg zur Baustelle – ehrlich?</li></ol></div>
+  </div>
+</article>
+<article class="karte" id="p8">
+  <div class="bilder"><img src="2026-09-w2-mo-aufloesung-vakanz.jpg" loading="lazy" alt="Slide 1"></div>
+  <div class="text">
+    <div class="kopf">
+      <span class="nr">#8</span>
+      <span class="datum">Mo 07.09.2026 · 18:00 Uhr</span>
+      <span class="typ">Einzelbild</span>
+    </div>
+    <pre class="caption">Auflösung: C. 270 Tage bleibt eine Stelle im Bauhauptgewerbe im Schnitt offen.
+
+Das sind neun Monate — der höchste Wert aller Branchen. Bei Polieren und Bauleitern liegt die Spanne bei sechs bis neun Monaten, im Hochbau sind es sogar 281 Tage. Wer im Januar merkt, dass ihm jemand fehlt, hat im besten Fall im Oktober Ersatz.
+
+Deshalb ist Personalplanung im Bau eine Sache der Geschäftsführung geworden, nicht der Verwaltung.
+
+👉 Link im Profil
+
+Quelle: Bundesagentur für Arbeit, 2024 bzw. Februar 2025 – Januar 2026 (Hochbau)
+
+#bauunternehmen #fachkräftemangel #recruiting</pre>
+    <div class="komm"><b>Erst-Kommentare</b><ol><li>Wer hatte C? 🙋</li><li>Zur Einordnung: 270 Tage sind neun Monate. Eine ganze Bausaison.</li></ol></div>
+  </div>
+</article>
+<article class="karte" id="p9">
+  <div class="bilder"><img src="2026-09-w2-di-erfolg-habers.jpg" loading="lazy" alt="Slide 1"></div>
+  <div class="text">
+    <div class="kopf">
+      <span class="nr">#9</span>
+      <span class="datum">Di 08.09.2026 · 18:00 Uhr</span>
+      <span class="typ">Einzelbild</span>
+    </div>
+    <pre class="caption">1 Facharbeiter Tiefbau eingestellt.
+
+Innovative Dienstleistungen Habers GmbH hat über GreyCareers besetzt — ohne Stellenanzeige, ohne Headhunter-Provision. Genau die Position, die in fast jedem Tiefbau-Betrieb gerade fehlt.
+
+Zur Einordnung: Eine Facharbeiter-Stelle im Bauhauptgewerbe bleibt im Schnitt 270 Tage offen. Hier waren es deutlich weniger, weil die Leute schon im Netzwerk waren und nicht erst gesucht werden mussten.
+
+Glückwunsch ans Team.
+
+Glückwünsche gern in die Kommentare 👇
+
+#tiefbau #bauunternehmen #greycareers</pre>
+    <div class="komm"><b>Erst-Kommentare</b><ol><li>Glückwünsche gern hier lassen. 👇</li></ol></div>
+  </div>
+</article>
+<article class="karte" id="p10">
+  <div class="bilder"><img src="2026-09-w2-mi-azubi.jpg" loading="lazy" alt="Slide 1"></div>
+  <div class="text">
+    <div class="kopf">
+      <span class="nr">#10</span>
+      <span class="datum">Mi 09.09.2026 · 12:00 Uhr</span>
+      <span class="typ">Einzelbild</span>
+    </div>
+    <pre class="caption">Ausbildungsstart am Bau. Drei Dinge, die im ersten Jahr keiner sagt.
+
+Erstens: Du wirst am Anfang mehr tragen als bauen — das gehört dazu und hört auf. Zweitens: Die Kolonne bringt dir mehr bei als jedes Buch, aber nur, wenn du fragst. Drittens: Der Tiefbaufacharbeiter ist der zweitbeliebteste Bau-Ausbildungsberuf in Deutschland. Du bist in keinem Nischenberuf gelandet.
+
+13.977 haben zuletzt angefangen. Plus 13,3 Prozent gegenüber dem Vorjahr.
+
+👉 bau.green-careers.de
+
+Quelle: ZDB / SOKA-BAU, April 2026
+
+#ausbildungambau #tiefbau #baujobs</pre>
+    <div class="komm"><b>Erst-Kommentare</b><ol><li>Alte Hasen: Was hättet ihr im ersten Lehrjahr gern gewusst?</li><li>Azubis, meldet euch – welches Gewerk und welches Lehrjahr? 🎓</li></ol></div>
+  </div>
+</article>
+<article class="karte" id="p11">
+  <div class="bilder"><img src="2026-09-w2-do-portale-s1.jpg" loading="lazy" alt="Slide 1"><img src="2026-09-w2-do-portale-s2.jpg" loading="lazy" alt="Slide 2"><img src="2026-09-w2-do-portale-s3.jpg" loading="lazy" alt="Slide 3"><img src="2026-09-w2-do-portale-s4.jpg" loading="lazy" alt="Slide 4"></div>
+  <div class="text">
+    <div class="kopf">
+      <span class="nr">#11</span>
+      <span class="datum">Do 10.09.2026 · 18:00 Uhr</span>
+      <span class="typ">Karussell · 4 Slides</span>
+    </div>
+    <pre class="caption">40 Bewerbungen. Kein einziger mit Bau-Erfahrung.
+
+Generische Stellenportale liefern Reichweite, aber kaum Passung: Rund 70 Prozent der Bewerbungen sind fachlich unpassend, die Besetzung dauert 60 bis 120 Tage. Auf eine Polier-Anzeige kommen im Tiefbau ein bis vier Bewerbungen — davon ist meist eine wirklich qualifiziert.
+
+Die Frage ist nicht, wie Sie mehr Bewerbungen bekommen. Sondern wie Sie die richtigen erreichen.
+
+👉 Link im Profil
+
+Quelle: Recruiting-Report 2026 Straßen- &amp; Tiefbau
+
+#bauunternehmen #recruiting #tiefbau</pre>
+    <div class="komm"><b>Erst-Kommentare</b><ol><li>Wie viele brauchbare Bewerbungen kamen bei Ihrer letzten Anzeige an?</li></ol></div>
+  </div>
+</article>
+<article class="karte" id="p12">
+  <div class="bilder"><img src="2026-09-w2-fr-gleisbau.jpg" loading="lazy" alt="Slide 1"></div>
+  <div class="text">
+    <div class="kopf">
+      <span class="nr">#12</span>
+      <span class="datum">Fr 11.09.2026 · 12:00 Uhr</span>
+      <span class="typ">Einzelbild</span>
+    </div>
+    <pre class="caption">Gleisbau heißt: arbeiten, wenn keiner fährt.
+
+Sperrpausen liegen nachts und am Wochenende, die Baustelle wandert, und zwischen zwei Zügen zählt jede Minute. Dafür ist die Auftragslage im Schienennetz so stabil wie in kaum einem anderen Gewerk — saniert wird über Jahre.
+
+Wer Schichten und Wochenenden mitbringt, hat im Gleisbau Argumente. Die sollte man beim Gespräch auch nennen.
+
+👉 bau.green-careers.de
+
+#gleisbau #baujobs #bauhauptgewerbe</pre>
+    <div class="komm"><b>Erst-Kommentare</b><ol><li>Gleisbauer hier? Zeigt euch in den Kommentaren. 🚂</li><li>Und: Nachtschicht – Fluch oder Segen?</li></ol></div>
+  </div>
+</article>
+<article class="karte" id="p13">
+  <div class="bilder"><img src="2026-09-w2-sa-quiz-beschaeftigte.jpg" loading="lazy" alt="Slide 1"></div>
+  <div class="text">
+    <div class="kopf">
+      <span class="nr">#13</span>
+      <span class="datum">Sa 12.09.2026 · 10:00 Uhr</span>
+      <span class="typ">Einzelbild</span>
+    </div>
+    <pre class="caption">Wer weiß es? Wie viele Menschen arbeiten im deutschen Bauhauptgewerbe?
+
+A, B oder C in die Kommentare. Auflösung am Montag.
+
+Gezählt werden Betriebe ab 20 Beschäftigten — die vielen kleinen Bauunternehmen kommen in dieser Statistik gar nicht vor.
+
+👉 Link im Profil
+
+#bauhauptgewerbe #baustelle #tiefbau</pre>
+    <div class="komm"><b>Erst-Kommentare</b><ol><li>Kleiner Tipp: Es sind mehr, als die meisten denken. 📈</li><li>Auflösung am Montag.</li></ol></div>
+  </div>
+</article>
+<article class="karte" id="p14">
+  <div class="bilder"><img src="2026-09-w2-so-ruettelplatte.jpg" loading="lazy" alt="Slide 1"></div>
+  <div class="text">
+    <div class="kopf">
+      <span class="nr">#14</span>
+      <span class="datum">So 13.09.2026 · 11:00 Uhr</span>
+      <span class="typ">Einzelbild</span>
+    </div>
+    <pre class="caption">Der einzige Tag, an dem nichts vibriert.
+
+Rüttelplatte, Abbruchhammer, Fertiger — nach fünf Tagen hat man den Takt noch im Ohr, auch wenn die Baustelle längst leer ist. Sonntag ist der Tag, an dem das aufhört.
+
+Schönen Sonntag. Ab morgen läuft es wieder.
+
+👍 wenn du weißt, wovon wir reden
+
+#baustelle #tiefbau #strassenbau</pre>
+    <div class="komm"><b>Erst-Kommentare</b><ol><li>Welches Gerät habt ihr am längsten im Ohr? 😂</li></ol></div>
+  </div>
+</article>
+<article class="karte" id="p15">
+  <div class="bilder"><img src="2026-09-w3-mo-aufloesung-beschaeftigte.jpg" loading="lazy" alt="Slide 1"></div>
+  <div class="text">
+    <div class="kopf">
+      <span class="nr">#15</span>
+      <span class="datum">Mo 14.09.2026 · 18:00 Uhr</span>
+      <span class="typ">Einzelbild</span>
+    </div>
+    <pre class="caption">Auflösung: C. Rund 545.000 Menschen arbeiten im deutschen Bauhauptgewerbe.
+
+Das sind 1,5 Prozent mehr als vor einem Jahr — die Branche wächst also, entgegen dem Gefühl vieler Betriebe. Nur wächst sie langsamer als die Auftragsbücher: Der Umsatz lag im selben Monat bei 11,2 Milliarden Euro, ein Plus von 11,5 Prozent.
+
+Mehr Leute, deutlich mehr Arbeit. Die Lücke schließt sich dadurch nicht.
+
+👉 Link im Profil
+
+Quelle: Statistisches Bundesamt, Juni 2026 (Betriebe ab 20 Beschäftigten)
+
+#bauhauptgewerbe #baustelle #bauunternehmen</pre>
+    <div class="komm"><b>Erst-Kommentare</b><ol><li>Wer hatte C? 🙋</li><li>Wichtig: Gezählt werden nur Betriebe ab 20 Beschäftigten. Die vielen kleinen kommen da gar nicht vor.</li></ol></div>
+  </div>
+</article>
+<article class="karte" id="p16">
+  <div class="bilder"><img src="2026-09-w3-di-polier.jpg" loading="lazy" alt="Slide 1"></div>
+  <div class="text">
+    <div class="kopf">
+      <span class="nr">#16</span>
+      <span class="datum">Di 15.09.2026 · 18:00 Uhr</span>
+      <span class="typ">Einzelbild</span>
+    </div>
+    <pre class="caption">Der Polier geht in zwei Jahren. Die Kolonne weiß es noch nicht.
+
+In vielen Bauunternehmen hängt der Kanalbau oder die Straßenkolonne an einem einzigen Mann, der alles im Kopf hat: Ablauf, Kunden, Behörden, die Eigenheiten jeder Maschine. Wenn der geht, geht das Wissen mit — und die Nachbesetzung dauert sechs bis neun Monate.
+
+Der Zeitpunkt, jemanden aufzubauen, ist nicht der Tag der Kündigung.
+
+👉 Link im Profil
+
+Quelle: Bundesagentur für Arbeit
+
+#kanalbau #bauunternehmen #polier</pre>
+    <div class="komm"><b>Erst-Kommentare</b><ol><li>Haben Sie einen Nachfolger im Blick – oder ist die Stelle noch offen?</li></ol></div>
+  </div>
+</article>
+<article class="karte" id="p17">
+  <div class="bilder"><img src="2026-09-w3-mi-polier-weg-s1.jpg" loading="lazy" alt="Slide 1"><img src="2026-09-w3-mi-polier-weg-s2.jpg" loading="lazy" alt="Slide 2"><img src="2026-09-w3-mi-polier-weg-s3.jpg" loading="lazy" alt="Slide 3"><img src="2026-09-w3-mi-polier-weg-s4.jpg" loading="lazy" alt="Slide 4"></div>
+  <div class="text">
+    <div class="kopf">
+      <span class="nr">#17</span>
+      <span class="datum">Mi 16.09.2026 · 12:00 Uhr</span>
+      <span class="typ">Karussell · 4 Slides</span>
+    </div>
+    <pre class="caption">Vom Facharbeiter zum Polier. Was dazwischen liegt.
+
+Der Weg ist kein Geheimnis: erst sicher im Gewerk, dann Verantwortung für eine kleine Kolonne, dann der Vorarbeiter-Lehrgang, dann die Geprüfte Polier-Prüfung. Zwischen Lohngruppe 4 und Lohngruppe 5 liegen 1,24 Euro die Stunde — und deutlich mehr Verantwortung.
+
+Der entscheidende Punkt: Es gibt Betriebe, die das bezahlen und begleiten. Und welche, die warten, bis jemand von allein soweit ist.
+
+👉 bau.green-careers.de
+
+Quelle: Tarifabschluss Bauhauptgewerbe, gültig seit 1. April 2026
+
+#polier #baujobs #bauhauptgewerbe</pre>
+    <div class="komm"><b>Erst-Kommentare</b><ol><li>Poliere hier: Wie lange hat euer Weg gedauert?</li><li>Und hätte euer Betrieb den Lehrgang gezahlt – oder habt ihr das selbst gestemmt?</li></ol></div>
+  </div>
+</article>
+<article class="karte" id="p18">
+  <div class="bilder"><img src="2026-09-w3-do-dihk-s1.jpg" loading="lazy" alt="Slide 1"><img src="2026-09-w3-do-dihk-s2.jpg" loading="lazy" alt="Slide 2"><img src="2026-09-w3-do-dihk-s3.jpg" loading="lazy" alt="Slide 3"><img src="2026-09-w3-do-dihk-s4.jpg" loading="lazy" alt="Slide 4"></div>
+  <div class="text">
+    <div class="kopf">
+      <span class="nr">#18</span>
+      <span class="datum">Do 17.09.2026 · 18:00 Uhr</span>
+      <span class="typ">Karussell · 4 Slides</span>
+    </div>
+    <pre class="caption">59 Prozent der Bauunternehmen bekommen ihre Stellen nicht besetzt.
+
+Das ist keine Randgruppe, das ist die Mehrheit. Und es trifft nicht die Betriebe mit den schlechtesten Bedingungen, sondern die, die zur selben Zeit suchen wie alle anderen — nämlich dann, wenn der Auftrag schon unterschrieben ist.
+
+Wer die Mannschaft erst aufbaut, wenn die Vergabe durch ist, sucht im vollsten Markt.
+
+👉 Link im Profil
+
+Quelle: DIHK-Fachkräftereport 2025/2026
+
+#bauunternehmen #fachkräftemangel #recruiting</pre>
+    <div class="komm"><b>Erst-Kommentare</b><ol><li>Welche der drei Zahlen überrascht Sie am meisten?</li></ol></div>
+  </div>
+</article>
+<article class="karte" id="p19">
+  <div class="bilder"><img src="2026-09-w3-fr-demografie.jpg" loading="lazy" alt="Slide 1"></div>
+  <div class="text">
+    <div class="kopf">
+      <span class="nr">#19</span>
+      <span class="datum">Fr 18.09.2026 · 12:00 Uhr</span>
+      <span class="typ">Einzelbild</span>
+    </div>
+    <pre class="caption">Bis 2030 fehlen über 100.000 Bauarbeiterinnen und Bauarbeiter.
+
+Das durchschnittliche Renteneintrittsalter im Bau liegt bei 58 Jahren. Gleichzeitig steigt die Zahl der Azubis wieder — 13.977 Neuverträge, plus 13,3 Prozent. Beides stimmt: Die Ausbildung zieht an, und die Lücke bleibt trotzdem, weil mehr Leute aufhören als nachkommen.
+
+Das ist keine Konjunktur, die man aussitzen kann. Das ist Demografie.
+
+👉 bau.green-careers.de
+
+Quellen: Hauptverband der Deutschen Bauindustrie · ZDB / SOKA-BAU, April 2026
+
+#bauhauptgewerbe #fachkräftemangel #ausbildungambau</pre>
+    <div class="komm"><b>Erst-Kommentare</b><ol><li>Wie alt ist eure erfahrenste Kraft auf der Baustelle?</li></ol></div>
+  </div>
+</article>
+<article class="karte" id="p20">
+  <div class="bilder"><img src="2026-09-w3-sa-quiz-ecklohn.jpg" loading="lazy" alt="Slide 1"></div>
+  <div class="text">
+    <div class="kopf">
+      <span class="nr">#20</span>
+      <span class="datum">Sa 19.09.2026 · 10:00 Uhr</span>
+      <span class="typ">Einzelbild</span>
+    </div>
+    <pre class="caption">Wer weiß es? Wie hoch ist der Ecklohn im Bauhauptgewerbe — Lohngruppe 4, inklusive Bauzuschlag?
+
+A, B oder C in die Kommentare. Auflösung am Montag.
+
+Gemeint ist der Gesamttarifstundenlohn, so wie er auf der Abrechnung ankommt.
+
+👉 Link im Profil
+
+#tariflohn #bauhauptgewerbe #baujobs</pre>
+    <div class="komm"><b>Erst-Kommentare</b><ol><li>👍 = ich verdiene Tarif oder mehr · ❤️ = ich liege drunter (anonym)</li><li>Auflösung am Montag – mit der Umrechnung auf den Monat.</li></ol></div>
+  </div>
+</article>
+<article class="karte" id="p21">
+  <div class="bilder"><img src="2026-09-w3-so-asphalt.jpg" loading="lazy" alt="Slide 1"></div>
+  <div class="text">
+    <div class="kopf">
+      <span class="nr">#21</span>
+      <span class="datum">So 20.09.2026 · 11:00 Uhr</span>
+      <span class="typ">Einzelbild</span>
+    </div>
+    <pre class="caption">Frisch eingebauter Asphalt am Morgen.
+
+Der Geruch, die Wärme, die Fläche, die vorher nicht da war — es gibt Sachen an diesem Beruf, die man niemandem erklären kann, der sie nicht selbst gerochen hat.
+
+Was ist dein Moment, an dem der Job sich lohnt? 👇
+
+#strassenbau #baustelle #baujobs</pre>
+    <div class="komm"><b>Erst-Kommentare</b><ol><li>Erzählt mal – was ist euer Moment? 👇</li></ol></div>
+  </div>
+</article>
+<article class="karte" id="p22">
+  <div class="bilder"><img src="2026-09-w4-mo-aufloesung-ecklohn.jpg" loading="lazy" alt="Slide 1"></div>
+  <div class="text">
+    <div class="kopf">
+      <span class="nr">#22</span>
+      <span class="datum">Mo 21.09.2026 · 18:00 Uhr</span>
+      <span class="typ">Einzelbild</span>
+    </div>
+    <pre class="caption">Auflösung: B. 26,05 Euro — Ecklohn Lohngruppe 4, inklusive Bauzuschlag.
+
+Dahinter steckt der eigentlich größere Satz: Seit dem 1. April 2026 gilt dieser Lohn bundesweit. Ost und West sind angeglichen, zum ersten Mal seit der Wiedervereinigung. Wer im Osten Baumaschinen fährt, verdient tariflich exakt dasselbe wie im Westen.
+
+Bei 173 Stunden im Monat sind das rund 4.507 Euro brutto in Vollzeit.
+
+👉 bau.green-careers.de
+
+Quelle: Tarifabschluss Bauhauptgewerbe, IG BAU / ZDB / HDB, gültig seit 1. April 2026
+
+#tariflohn #bauhauptgewerbe #baujobs</pre>
+    <div class="komm"><b>Erst-Kommentare</b><ol><li>Wer hatte B? 🙋</li><li>Schick&#x27;s dem Kollegen, der glaubt, er verdient genug.</li></ol></div>
+  </div>
+</article>
+<article class="karte" id="p23">
+  <div class="bilder"><img src="2026-09-w4-di-erfolg-hirzle.jpg" loading="lazy" alt="Slide 1"></div>
+  <div class="text">
+    <div class="kopf">
+      <span class="nr">#23</span>
+      <span class="datum">Di 22.09.2026 · 18:00 Uhr</span>
+      <span class="typ">Einzelbild</span>
+    </div>
+    <pre class="caption">Facharbeiter eingestellt.
+
+Die Hirzle Bauunternehmen GmbH hat über GreyCareers besetzt. Kein Portal-Streuverlust, keine Provision in Höhe eines Monatsumsatzes — ein passender Mann aus dem Netzwerk.
+
+Was den Unterschied macht, ist nicht die Anzeige, sondern wer sie zu sehen bekommt. Über 42.000 Menschen aus dem Bau sind monatlich im Netzwerk unterwegs.
+
+Glückwunsch ans Team.
+
+Glückwünsche gern in die Kommentare 👇
+
+#bauunternehmen #baustelle #greycareers</pre>
+    <div class="komm"><b>Erst-Kommentare</b><ol><li>Glückwünsche gern hier lassen. 👇</li></ol></div>
+  </div>
+</article>
+<article class="karte" id="p24">
+  <div class="bilder"><img src="2026-09-w4-mi-montage-s1.jpg" loading="lazy" alt="Slide 1"><img src="2026-09-w4-mi-montage-s2.jpg" loading="lazy" alt="Slide 2"><img src="2026-09-w4-mi-montage-s3.jpg" loading="lazy" alt="Slide 3"><img src="2026-09-w4-mi-montage-s4.jpg" loading="lazy" alt="Slide 4"></div>
+  <div class="text">
+    <div class="kopf">
+      <span class="nr">#24</span>
+      <span class="datum">Mi 23.09.2026 · 12:00 Uhr</span>
+      <span class="typ">Karussell · 4 Slides</span>
+    </div>
+    <pre class="caption">Wie viele Nächte im Jahr bist du eigentlich nicht zu Hause?
+
+Montage ist die Frage, die bei Bewerbungsgesprächen am Bau am seltensten ehrlich beantwortet wird — von beiden Seiten. Dabei entscheidet sie oft mehr über einen Wechsel als der Stundenlohn: Ob du abends zu Hause bist oder wochenweise im Hotel, ist am Ende ein anderer Beruf – bei gleicher Lohngruppe.
+
+Frag im Gespräch konkret nach: Wie viele Wochen am Stück, wie weit weg, wie wird der Auslöse abgerechnet, wer zahlt die Heimfahrten.
+
+👉 bau.green-careers.de
+
+#baujobs #montage #tiefbau</pre>
+    <div class="komm"><b>Erst-Kommentare</b><ol><li>Wie viele Nächte waren es bei euch dieses Jahr?</li><li>Betriebe lesen mit: Sagt ihr die Montage-Anteile im Gespräch offen an?</li></ol></div>
+  </div>
+</article>
+<article class="karte" id="p25">
+  <div class="bilder"><img src="2026-09-w4-do-rohbau-herbst.jpg" loading="lazy" alt="Slide 1"></div>
+  <div class="text">
+    <div class="kopf">
+      <span class="nr">#25</span>
+      <span class="datum">Do 24.09.2026 · 18:00 Uhr</span>
+      <span class="typ">Einzelbild</span>
+    </div>
+    <pre class="caption">Noch acht Wochen bis zur Frostgrenze.
+
+Im Rohbau und im Straßenbau entscheidet sich jetzt, welche Baustellen dieses Jahr noch fertig werden — und welche im März nochmal von vorn anfangen. Wer im Oktober zwei Leute zu wenig hat, verschiebt nicht Tage, sondern Monate.
+
+Die Nachbesetzung dauert im Schnitt 270 Tage. Für dieses Jahr ist das keine Option mehr, für die nächste Saison schon.
+
+👉 Link im Profil
+
+Quelle: Bundesagentur für Arbeit, 2024
+
+#hochbau #strassenbau #bauunternehmen</pre>
+    <div class="komm"><b>Erst-Kommentare</b><ol><li>Wie voll ist Ihr Terminkalender bis zur Frostgrenze?</li></ol></div>
+  </div>
+</article>
+<article class="karte" id="p26">
+  <div class="bilder"><img src="2026-09-w4-fr-quereinstieg.jpg" loading="lazy" alt="Slide 1"></div>
+  <div class="text">
+    <div class="kopf">
+      <span class="nr">#26</span>
+      <span class="datum">Fr 25.09.2026 · 12:00 Uhr</span>
+      <span class="typ">Einzelbild</span>
+    </div>
+    <pre class="caption">Neu auf dem Bau? Das ist der ehrliche Einstieg.
+
+Ohne Ausbildung fängst du in Lohngruppe 1 an, mit etwas Erfahrung in Lohngruppe 2 — das sind 15,86 beziehungsweise 18,73 Euro die Stunde, bundesweit gleich. Von da an entscheidet, was du dir holst: Baggerschein, CE, Sachkundenachweise.
+
+Der Weg nach oben ist im Bau kürzer als in den meisten Branchen. Er fängt nur weiter unten an.
+
+👉 bau.green-careers.de
+
+Quelle: Tarifabschluss Bauhauptgewerbe, gültig seit 1. April 2026
+
+#quereinstieg #baujobs #bauhauptgewerbe</pre>
+    <div class="komm"><b>Erst-Kommentare</b><ol><li>Quereinsteiger hier? Erzählt mal, wo ihr vorher wart. 👇</li><li>Und an die Alten: Welchen Schein würdet ihr zuerst machen?</li></ol></div>
+  </div>
+</article>
+<article class="karte" id="p27">
+  <div class="bilder"><img src="2026-09-w4-sa-quiz-azubis.jpg" loading="lazy" alt="Slide 1"></div>
+  <div class="text">
+    <div class="kopf">
+      <span class="nr">#27</span>
+      <span class="datum">Sa 26.09.2026 · 10:00 Uhr</span>
+      <span class="typ">Einzelbild</span>
+    </div>
+    <pre class="caption">Wer weiß es? Wie viele junge Leute haben zuletzt eine Ausbildung im Bauhauptgewerbe angefangen?
+
+A, B oder C in die Kommentare. Auflösung am Montag.
+
+Zur Einordnung: Bundesweit ist die Zahl der neuen Ausbildungsverträge im selben Zeitraum gesunken.
+
+👉 Link im Profil
+
+#ausbildungambau #bauhauptgewerbe #baujobs</pre>
+    <div class="komm"><b>Erst-Kommentare</b><ol><li>Kleiner Tipp: Der Bau läuft gerade gegen den Bundestrend. 📈</li><li>Letzte Quiz-Runde im September – Auflösung am Montag.</li></ol></div>
+  </div>
+</article>
+<article class="karte" id="p28">
+  <div class="bilder"><img src="2026-09-w4-so-ablauf-s1.jpg" loading="lazy" alt="Slide 1"><img src="2026-09-w4-so-ablauf-s2.jpg" loading="lazy" alt="Slide 2"><img src="2026-09-w4-so-ablauf-s3.jpg" loading="lazy" alt="Slide 3"><img src="2026-09-w4-so-ablauf-s4.jpg" loading="lazy" alt="Slide 4"></div>
+  <div class="text">
+    <div class="kopf">
+      <span class="nr">#28</span>
+      <span class="datum">So 27.09.2026 · 11:00 Uhr</span>
+      <span class="typ">Karussell · 4 Slides</span>
+    </div>
+    <pre class="caption">Ein Profil. Und die Betriebe melden sich.
+
+So läuft es bei uns: Du legst in ein paar Minuten an, was du kannst und wo du arbeiten willst. Wir gleichen das mit den Betrieben im Netzwerk ab. Du entscheidest, mit wem du sprichst — kein Anschreiben, kein Lebenslauf-PDF, keine offene Bewerbung beim eigenen Chef vorbei.
+
+Über 1.100 Bauunternehmen sind dabei.
+
+👉 bau.green-careers.de
+
+#baujobs #tiefbau #strassenbau</pre>
+    <div class="komm"><b>Erst-Kommentare</b><ol><li>Fragen zum Ablauf? Hier oder per DM – wir antworten schnell.</li></ol></div>
+  </div>
+</article>
+<article class="karte" id="p29">
+  <div class="bilder"><img src="2026-09-w5-mo-aufloesung-azubis.jpg" loading="lazy" alt="Slide 1"></div>
+  <div class="text">
+    <div class="kopf">
+      <span class="nr">#29</span>
+      <span class="datum">Mo 28.09.2026 · 18:00 Uhr</span>
+      <span class="typ">Einzelbild</span>
+    </div>
+    <pre class="caption">Auflösung: B. 13.977 junge Leute haben zuletzt am Bau angefangen — 13,3 Prozent mehr als im Jahr davor.
+
+Das ist der eigentliche Punkt: Bundesweit ist die duale Ausbildung im selben Zeitraum um 2,8 Prozent gesunken. Der Bau läuft gegen den Trend. Insgesamt sind jetzt 40.043 Azubis in der Branche, die beliebtesten Berufe sind Zimmerer, Tiefbaufacharbeiter und Maurer.
+
+Wer ausbildet, hat in drei Jahren die Leute, die alle anderen dann suchen.
+
+👉 Link im Profil
+
+Quelle: ZDB / SOKA-BAU, April 2026
+
+#ausbildungambau #bauhauptgewerbe #bauunternehmen</pre>
+    <div class="komm"><b>Erst-Kommentare</b><ol><li>Wer bildet selbst aus? Erzählt mal, wie ihr eure Azubis findet.</li><li>Und: Welches Gewerk bildet bei euch aus?</li></ol></div>
+  </div>
+</article>
+<article class="karte" id="p30">
+  <div class="bilder"><img src="2026-09-w5-di-brand.jpg" loading="lazy" alt="Slide 1"></div>
+  <div class="text">
+    <div class="kopf">
+      <span class="nr">#30</span>
+      <span class="datum">Di 29.09.2026 · 18:00 Uhr</span>
+      <span class="typ">Einzelbild</span>
+    </div>
+    <pre class="caption">Wir sprechen Bau. Nicht HR.
+
+Wenn ein Geschäftsführer aus dem Tiefbau bei uns anruft, redet er nicht mit einem Recruiter über Employer Branding. Er redet mit jemandem, der weiß, warum ein Polier kein Bauleiter ist und was es heißt, wenn die zweite Kolonne nicht startet.
+
+Das ist der ganze Unterschied zwischen 40 unpassenden Bewerbungen und einer richtigen.
+
+👉 bau.green-careers.de
+
+#bauunternehmen #recruiting #greycareers</pre>
+    <div class="komm"><b>Erst-Kommentare</b><ol><li>Danke fürs Mitlesen im ersten Monat. 🦺</li></ol></div>
+  </div>
+</article>
+</div>
+
+<script>
+function pruefe(e) {
+  e.preventDefault();
+  if (document.getElementById('pw').value === "bau26") {
+    document.getElementById('gate').style.display = 'none';
+    document.getElementById('inhalt').style.display = '';
+    sessionStorage.setItem('ok', '1');
+  } else {
+    document.getElementById('pw').value = '';
+    document.getElementById('pw').placeholder = 'Falsch – nochmal';
+  }
+}
+if (sessionStorage.getItem('ok')) {
+  document.getElementById('gate').style.display = 'none';
+  document.getElementById('inhalt').style.display = '';
+}
+</script>
+</body></html>
