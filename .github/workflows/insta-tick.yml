@@ -20,7 +20,7 @@ name: Grey Insta Auto-Post Tick
 # SCHARF seit 26.08.2026. Make-Szenario 7101136 ist aktiv und getestet.
 on:
   schedule:
-    - cron: "0 8,9,10,16 * * *"
+    - cron: "0 6,8,9,10,15,16,17 * * *"
   workflow_dispatch:
     inputs:
       slot:
@@ -35,6 +35,7 @@ jobs:
       - name: Slot bestimmen und Tick senden
         env:
           HOOK: ${{ secrets.MAKE_TICK_HOOK }}
+          STORY_HOOK: ${{ secrets.MAKE_STORY_HOOK }}
         run: |
           if [ -z "$HOOK" ]; then
             echo "::error::Secret MAKE_TICK_HOOK ist nicht gesetzt."
@@ -45,12 +46,16 @@ jobs:
           else
             H_UTC=$(date -u +%H)
             case "$H_UTC" in
+              06) SLOT="08:00" ;;
               08) SLOT="10:00" ;;
               09) SLOT="11:00" ;;
               10) SLOT="12:00" ;;
+              15) SLOT="17:00" ;;
               16) SLOT="18:00" ;;
+              17) SLOT="19:00" ;;
               *) echo "Kein Slot fuer UTC-Stunde $H_UTC - Ende."; exit 0 ;;
             esac
           fi
           echo "Tick fuer Slot $SLOT"
           curl --fail-with-body --silent --show-error --max-time 60 --retry 3 --retry-delay 15 --retry-all-errors "$HOOK?slot=$SLOT"
+          curl --fail-with-body --silent --show-error --max-time 60 --retry 3 --retry-delay 15 --retry-all-errors "$STORY_HOOK?slot=$SLOT"
