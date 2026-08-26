@@ -53,4 +53,4 @@ jobs:
             esac
           fi
           echo "Tick fuer Slot $SLOT"
-          curl --fail-with-body --silent --show-error --max-time 30 "$HOOK?slot=$SLOT"
+          curl --fail-with-body --silent --show-error --max-time 60 --retry 3 --retry-delay 15 --retry-all-errors "$HOOK?slot=$SLOT"
