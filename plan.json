@@ -427,11 +427,22 @@
   },
   {
    "nr": 102,
-   "datum": "2026-08-27",
+   "datum": "2026-08-26",
    "zeit": "19:00",
    "typ": "story",
    "bilder": [
     "https://insta-bau.green-careers.de/2026-09-story-g1-frage-feierabend.jpg"
+   ],
+   "caption": "",
+   "kommentare": []
+  },
+  {
+   "nr": 115,
+   "datum": "2026-08-27",
+   "zeit": "19:00",
+   "typ": "story",
+   "bilder": [
+    "https://insta-bau.green-careers.de/2026-09-story-g1-kanal-intro.jpg"
    ],
    "caption": "",
    "kommentare": []
@@ -570,7 +581,7 @@
   },
   {
    "nr": 201,
-   "datum": "2026-08-28",
+   "datum": "2026-08-26",
    "zeit": "17:00",
    "typ": "reel",
    "bilder": [
