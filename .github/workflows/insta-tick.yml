@@ -17,13 +17,10 @@
 # ============================================================
 name: Grey Insta Auto-Post Tick
 
-# ⚠️ SCHARFSCHALTUNG: Der Cron ist bis zum Go-live auskommentiert.
-# Vorher wuerde jeder Tick ins Leere laufen (Make-Szenario noch inaktiv) und
-# taeglich Fehlermails ausloesen - genau der Fehler, der beim GC-Studio passiert ist.
-# Zum Scharfschalten: die beiden Cron-Zeilen einkommentieren und pushen.
+# SCHARF seit 26.08.2026. Make-Szenario 7101136 ist aktiv und getestet.
 on:
-  # schedule:
-  #   - cron: "0 8,9,10,16 * * *"
+  schedule:
+    - cron: "0 8,9,10,16 * * *"
   workflow_dispatch:
     inputs:
       slot:
