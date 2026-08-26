@@ -1,7 +1,7 @@
 # ============================================================
 # Grey Insta Auto-Post · Zeitgeber
 #
-# Feuert zu den vier Posting-Slots von @gray_careers einen Tick
+# Feuert zu den vier Posting-Slots von @greycareers.de einen Tick
 # an das Make-Szenario "Grey Insta Auto-Post". Make laedt
 # plan.json von insta-bau.green-careers.de und veroeffentlicht
 # die fuer diesen Slot geplanten Posts auf Instagram + Facebook.
