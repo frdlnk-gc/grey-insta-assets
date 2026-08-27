@@ -1,33 +1,48 @@
 # ============================================================
-# Grey Insta Auto-Post · Zeitgeber
+# Grey Insta Auto-Post · manuelle Nachzuendung  (@greycareers.de)
 #
-# Feuert zu den vier Posting-Slots von @greycareers.de einen Tick
-# an das Make-Szenario "Grey Insta Auto-Post". Make laedt
-# plan.json von insta-bau.green-careers.de und veroeffentlicht
-# die fuer diesen Slot geplanten Posts auf Instagram + Facebook.
+# DIESER WORKFLOW IST NICHT MEHR DER ZEITGEBER.
+# Getaktet wird in Supabase: pg_cron-Job "insta-tick" laeuft stuendlich und
+# ruft public.insta_tick() auf. Die Funktion liest die BERLINER Stunde, feuert
+# nur bei 8/10/11/12/17/18/19 Uhr und schickt den Tick an alle vier Hooks
+# (GC Feed, GC Story+Reel, Grey Feed, Grey Story+Reel). Jeder Schuss wird in
+# public.insta_tick_log protokolliert, damit ein Slot pro Berliner Kalendertag
+# genau einmal rausgeht.
+# Hintergrund des Umzugs: GitHub hat am 25.-27.08.2026 planmaessige Cron-Laeufe
+# reihenweise verworfen oder 27-109 min zu spaet gestartet.
 #
-# EIGENER Hook - NICHT der von GreenCareers. Ein fremder Tick
-# wuerde auf dem falschen Account posten.
+# Hier bleibt nur die Handkurbel: per workflow_dispatch einen einzelnen Slot
+# nachfeuern, wenn ein Tick doch mal ausgefallen ist. Der Lauf schickt den Tick
+# an beide GREY-Hooks; Make laedt daraufhin plan.json von
+# insta-bau.green-careers.de und veroeffentlicht die fuer diesen Slot geplanten
+# Posts auf Instagram + Facebook. Scharf seit 26.08.2026.
 #
-# Slots Berlin -> UTC (MESZ, gueltig bis 25.10.2026):
-#   10:00->08   11:00->09   12:00->10   18:00->16
-# Ab Winterzeit (26.10.2026) jede UTC-Stunde um 1 erhoehen.
+# EIGENE Hooks - NICHT die von GreenCareers. Ein fremder Tick wuerde auf dem
+# falschen Account posten.
 #
-# Secret: MAKE_TICK_HOOK = Make-Webhook-URL des Grey-Szenarios
+# ACHTUNG DOPPELPOST: Die Sperre in insta_tick_log greift NUR fuer den
+# pg_cron-Pfad. Ein manueller Lauf feuert immer, auch wenn der Slot heute schon
+# raus ist - vorher pruefen. Aus demselben Grund KEIN --retry-all-errors bei
+# curl: ein Webhook, den Make schon angenommen hat, wuerde sonst ein zweites
+# Mal ausgeloest = doppelter Post.
+#
+# Slots (Berliner Zeit, identisch in plan.json und in insta_tick()):
+#   08:00  10:00  11:00  12:00  17:00  18:00  19:00
+# Keine UTC-Tabelle mehr: ohne Slot-Eingabe wird die Berliner Stunde direkt
+# ausgewertet, die Zeitumstellung braucht deshalb keine Pflege.
+#
+# Secrets (beide Pflicht, fehlt eines bricht der Lauf sofort ab):
+#   MAKE_TICK_HOOK  = Make-Hook fuer Feed-Posts des Grey-Szenarios
+#   MAKE_STORY_HOOK = Make-Hook fuer Stories + Reels des Grey-Szenarios
 # ============================================================
 name: Grey Insta Auto-Post Tick
 
-# SCHARF seit 26.08.2026. Make-Szenario 7101136 ist aktiv und getestet.
 on:
-  # KEIN schedule mehr. GitHub hat am 25.-27.08. planmaessige Laeufe
-  # reihenweise verworfen: die Slots 06:00 und 15:00 UTC feuerten an keinem
-  # Tag, am 27.08. auch 08:00 und 09:17 nicht. Der Zeitgeber ist seitdem
-  # pg_cron in Supabase (Job "insta-tick"), der nachweislich zuverlaessig laeuft.
-  # Dieser Workflow bleibt NUR fuer manuelle Nachzuendung per Slot.
+  # Kein schedule: Zeitgeber ist der pg_cron-Job "insta-tick" in Supabase.
   workflow_dispatch:
     inputs:
       slot:
-        description: "Slot manuell (HH:MM Berlin)"
+        description: "Slot (HH:MM Berlin, z. B. 18:00). Leer = aktuelle Berliner Stunde."
         required: false
 
 jobs:
@@ -39,41 +54,70 @@ jobs:
         env:
           HOOK: ${{ secrets.MAKE_TICK_HOOK }}
           STORY_HOOK: ${{ secrets.MAKE_STORY_HOOK }}
+          # Eingabe ueber env, nicht direkt ins Skript interpolieren - sonst
+          # landet beliebiger Text aus dem Dispatch-Feld in der Shell.
+          SLOT_INPUT: ${{ github.event.inputs.slot }}
         run: |
+          # Beide Secrets sind Pflicht. Fehlte MAKE_STORY_HOOK, lief der
+          # Story-Tick frueher lautlos ins Leere - deshalb hart abbrechen.
+          MISSING=""
           if [ -z "$HOOK" ]; then
-            echo "::error::Secret MAKE_TICK_HOOK ist nicht gesetzt."
+            MISSING="$MISSING MAKE_TICK_HOOK"
+          fi
+          if [ -z "$STORY_HOOK" ]; then
+            MISSING="$MISSING MAKE_STORY_HOOK"
+          fi
+          if [ -n "$MISSING" ]; then
+            echo "::error::Fehlende Secrets:$MISSING - ohne sie kann kein Tick gesendet werden."
             exit 1
           fi
-          if [ -n "${{ github.event.inputs.slot }}" ]; then
-            SLOT="${{ github.event.inputs.slot }}"
+
+          if [ -n "$SLOT_INPUT" ]; then
+            SLOT="$SLOT_INPUT"
           else
-            # Slot aus der GEPLANTEN Cron-Zeile, NICHT aus der Uhrzeit bei Ausfuehrung.
-            # Gemessen 25./26.08.2026: GitHub-Crons starten 27-109 min zu spaet. Mit
-            # "date -u +%H" rutscht ein verspaeteter Lauf in die naechste Stunde und
-            # faellt aus der Zuordnung - der 19:00-Slot am 26.08. hat so nichts
-            # veroeffentlicht, bei gruenem Haken. Genau das darf nicht wieder passieren.
-            case "${{ github.event.schedule }}" in
-              "17 6 * * *")  SLOT="08:00" ;;
-              "17 8 * * *")  SLOT="10:00" ;;
-              "17 9 * * *")  SLOT="11:00" ;;
-              "17 10 * * *") SLOT="12:00" ;;
-              "17 15 * * *") SLOT="17:00" ;;
-              "17 16 * * *") SLOT="18:00" ;;
-              "17 17 * * *") SLOT="19:00" ;;
+            # Ohne Eingabe: Slot aus der BERLINER Stunde ableiten, genau wie
+            # insta_tick() in Supabase. Die frueher hier verdrahtete UTC-Tabelle
+            # galt nur fuer Sommerzeit und waere ab dem 25.10.2026 eine Stunde
+            # daneben gewesen.
+            BERLIN_HOUR="$(TZ=Europe/Berlin date +%H)"
+            case "$BERLIN_HOUR" in
+              08|10|11|12|17|18|19)
+                SLOT="${BERLIN_HOUR}:00"
+                ;;
               *)
-                # Rueckfall, falls github.event.schedule mal leer/unerwartet ankommt:
-                # lieber die alte Stundenlogik als gar nichts veroeffentlichen.
-                echo "::warning::Cron-Zeile '${{ github.event.schedule }}' unbekannt - Rueckfall auf UTC-Stunde."
-                case "$(date -u +%H)" in
-                  06) SLOT="08:00" ;; 07) SLOT="08:00" ;;
-                  08) SLOT="10:00" ;; 09) SLOT="11:00" ;;
-                  10) SLOT="12:00" ;; 15) SLOT="17:00" ;;
-                  16) SLOT="18:00" ;; 17) SLOT="19:00" ;;
-                  *) echo "::error::Weder Cron-Zeile noch UTC-Stunde ergeben einen Slot."; exit 1 ;;
-                esac
+                echo "::error::Berliner Stunde $BERLIN_HOUR ist kein Posting-Slot (08/10/11/12/17/18/19). Slot beim Start manuell eintragen."
+                exit 1
                 ;;
             esac
           fi
-          echo "Tick fuer Slot $SLOT"
-          curl --fail-with-body --silent --show-error --max-time 60 --retry 2 --retry-connrefused --retry-delay 10 "$HOOK?slot=$SLOT"
-          curl --fail-with-body --silent --show-error --max-time 60 --retry 2 --retry-connrefused --retry-delay 10 "$STORY_HOOK?slot=$SLOT"
+          echo "Tick fuer Slot $SLOT (Berlin)"
+
+          # Beide Hooks unabhaengig voneinander feuern. Haengen die curl-Aufrufe
+          # unter "set -e" aneinander, verschluckt ein fehlgeschlagener Feed-Tick
+          # den Story-Tick komplett - die Story faellt dann still aus. Deshalb
+          # Exit-Codes einzeln merken und erst am Ende gemeinsam bewerten.
+          RC_FEED=0
+          curl --fail-with-body --silent --show-error --max-time 60 \
+               --retry 2 --retry-connrefused --retry-delay 10 \
+               "$HOOK?slot=$SLOT" || RC_FEED=$?
+
+          RC_STORY=0
+          curl --fail-with-body --silent --show-error --max-time 60 \
+               --retry 2 --retry-connrefused --retry-delay 10 \
+               "$STORY_HOOK?slot=$SLOT" || RC_STORY=$?
+
+          if [ "$RC_FEED" -eq 0 ]; then
+            echo "Feed-Tick OK."
+          else
+            echo "::error::Feed-Tick fehlgeschlagen (curl-Exit $RC_FEED)."
+          fi
+          if [ "$RC_STORY" -eq 0 ]; then
+            echo "Story-Tick OK."
+          else
+            echo "::error::Story-Tick fehlgeschlagen (curl-Exit $RC_STORY)."
+          fi
+
+          if [ "$RC_FEED" -ne 0 ] || [ "$RC_STORY" -ne 0 ]; then
+            exit 1
+          fi
+          echo "Beide Ticks fuer Slot $SLOT erfolgreich."
