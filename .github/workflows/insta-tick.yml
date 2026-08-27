@@ -20,7 +20,15 @@ name: Grey Insta Auto-Post Tick
 # SCHARF seit 26.08.2026. Make-Szenario 7101136 ist aktiv und getestet.
 on:
   schedule:
-    - cron: "0 6,8,9,10,15,16,17 * * *"
+    # Je Slot eine EIGENE Cron-Zeile: nur so laesst sich der Slot spaeter
+    # eindeutig aus github.event.schedule ableiten.
+    - cron: "0 6 * * *"    # 08:00 Berlin
+    - cron: "0 8 * * *"    # 10:00 Berlin
+    - cron: "0 9 * * *"    # 11:00 Berlin
+    - cron: "0 10 * * *"   # 12:00 Berlin
+    - cron: "0 15 * * *"   # 17:00 Berlin
+    - cron: "0 16 * * *"   # 18:00 Berlin
+    - cron: "0 17 * * *"   # 19:00 Berlin
   workflow_dispatch:
     inputs:
       slot:
@@ -44,16 +52,20 @@ jobs:
           if [ -n "${{ github.event.inputs.slot }}" ]; then
             SLOT="${{ github.event.inputs.slot }}"
           else
-            H_UTC=$(date -u +%H)
-            case "$H_UTC" in
-              06) SLOT="08:00" ;;
-              08) SLOT="10:00" ;;
-              09) SLOT="11:00" ;;
-              10) SLOT="12:00" ;;
-              15) SLOT="17:00" ;;
-              16) SLOT="18:00" ;;
-              17) SLOT="19:00" ;;
-              *) echo "Kein Slot fuer UTC-Stunde $H_UTC - Ende."; exit 0 ;;
+            # Slot aus der GEPLANTEN Cron-Zeile, NICHT aus der Uhrzeit bei Ausfuehrung.
+            # Gemessen 25./26.08.2026: GitHub-Crons starten 27-109 min zu spaet. Mit
+            # "date -u +%H" rutscht ein verspaeteter Lauf in die naechste Stunde und
+            # faellt aus der Zuordnung - der 19:00-Slot am 26.08. hat so nichts
+            # veroeffentlicht, bei gruenem Haken. Genau das darf nicht wieder passieren.
+            case "${{ github.event.schedule }}" in
+              "0 6 * * *")  SLOT="08:00" ;;
+              "0 8 * * *")  SLOT="10:00" ;;
+              "0 9 * * *")  SLOT="11:00" ;;
+              "0 10 * * *") SLOT="12:00" ;;
+              "0 15 * * *") SLOT="17:00" ;;
+              "0 16 * * *") SLOT="18:00" ;;
+              "0 17 * * *") SLOT="19:00" ;;
+              *) echo "::error::Unbekannte Cron-Zeile '${{ github.event.schedule }}' - kein Slot zugeordnet."; exit 1 ;;
             esac
           fi
           echo "Tick fuer Slot $SLOT"
