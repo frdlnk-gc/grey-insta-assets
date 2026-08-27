@@ -20,15 +20,17 @@ name: Grey Insta Auto-Post Tick
 # SCHARF seit 26.08.2026. Make-Szenario 7101136 ist aktiv und getestet.
 on:
   schedule:
-    # Je Slot eine EIGENE Cron-Zeile: nur so laesst sich der Slot spaeter
-    # eindeutig aus github.event.schedule ableiten.
-    - cron: "0 6 * * *"    # 08:00 Berlin
-    - cron: "0 8 * * *"    # 10:00 Berlin
-    - cron: "0 9 * * *"    # 11:00 Berlin
-    - cron: "0 10 * * *"   # 12:00 Berlin
-    - cron: "0 15 * * *"   # 17:00 Berlin
-    - cron: "0 16 * * *"   # 18:00 Berlin
-    - cron: "0 17 * * *"   # 19:00 Berlin
+    # NICHT zur vollen Stunde: GitHub verwirft Cron-Laeufe unter Last, und :00 ist
+    # global der meistgenutzte Zeitpunkt. Gemessen 25./26.08.: die Slots 06:00 und
+    # 15:00 UTC feuerten an KEINEM der beiden Tage, 08:00 UTC am 27.08. ebenfalls nicht.
+    # Je Slot eine eigene Zeile, damit der Slot aus github.event.schedule ableitbar bleibt.
+    - cron: "17 6 * * *"   # 08:00 Berlin
+    - cron: "17 8 * * *"   # 10:00 Berlin
+    - cron: "17 9 * * *"   # 11:00 Berlin
+    - cron: "17 10 * * *"   # 12:00 Berlin
+    - cron: "17 15 * * *"   # 17:00 Berlin
+    - cron: "17 16 * * *"   # 18:00 Berlin
+    - cron: "17 17 * * *"   # 19:00 Berlin
   workflow_dispatch:
     inputs:
       slot:
@@ -58,13 +60,13 @@ jobs:
             # faellt aus der Zuordnung - der 19:00-Slot am 26.08. hat so nichts
             # veroeffentlicht, bei gruenem Haken. Genau das darf nicht wieder passieren.
             case "${{ github.event.schedule }}" in
-              "0 6 * * *")  SLOT="08:00" ;;
-              "0 8 * * *")  SLOT="10:00" ;;
-              "0 9 * * *")  SLOT="11:00" ;;
-              "0 10 * * *") SLOT="12:00" ;;
-              "0 15 * * *") SLOT="17:00" ;;
-              "0 16 * * *") SLOT="18:00" ;;
-              "0 17 * * *") SLOT="19:00" ;;
+              "17 6 * * *")  SLOT="08:00" ;;
+              "17 8 * * *")  SLOT="10:00" ;;
+              "17 9 * * *")  SLOT="11:00" ;;
+              "17 10 * * *") SLOT="12:00" ;;
+              "17 15 * * *") SLOT="17:00" ;;
+              "17 16 * * *") SLOT="18:00" ;;
+              "17 17 * * *") SLOT="19:00" ;;
               *)
                 # Rueckfall, falls github.event.schedule mal leer/unerwartet ankommt:
                 # lieber die alte Stundenlogik als gar nichts veroeffentlichen.
