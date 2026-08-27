@@ -65,7 +65,18 @@ jobs:
               "0 15 * * *") SLOT="17:00" ;;
               "0 16 * * *") SLOT="18:00" ;;
               "0 17 * * *") SLOT="19:00" ;;
-              *) echo "::error::Unbekannte Cron-Zeile '${{ github.event.schedule }}' - kein Slot zugeordnet."; exit 1 ;;
+              *)
+                # Rueckfall, falls github.event.schedule mal leer/unerwartet ankommt:
+                # lieber die alte Stundenlogik als gar nichts veroeffentlichen.
+                echo "::warning::Cron-Zeile '${{ github.event.schedule }}' unbekannt - Rueckfall auf UTC-Stunde."
+                case "$(date -u +%H)" in
+                  06) SLOT="08:00" ;; 07) SLOT="08:00" ;;
+                  08) SLOT="10:00" ;; 09) SLOT="11:00" ;;
+                  10) SLOT="12:00" ;; 15) SLOT="17:00" ;;
+                  16) SLOT="18:00" ;; 17) SLOT="19:00" ;;
+                  *) echo "::error::Weder Cron-Zeile noch UTC-Stunde ergeben einen Slot."; exit 1 ;;
+                esac
+                ;;
             esac
           fi
           echo "Tick fuer Slot $SLOT"
