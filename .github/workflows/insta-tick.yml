@@ -19,18 +19,11 @@ name: Grey Insta Auto-Post Tick
 
 # SCHARF seit 26.08.2026. Make-Szenario 7101136 ist aktiv und getestet.
 on:
-  schedule:
-    # NICHT zur vollen Stunde: GitHub verwirft Cron-Laeufe unter Last, und :00 ist
-    # global der meistgenutzte Zeitpunkt. Gemessen 25./26.08.: die Slots 06:00 und
-    # 15:00 UTC feuerten an KEINEM der beiden Tage, 08:00 UTC am 27.08. ebenfalls nicht.
-    # Je Slot eine eigene Zeile, damit der Slot aus github.event.schedule ableitbar bleibt.
-    - cron: "17 6 * * *"   # 08:00 Berlin
-    - cron: "17 8 * * *"   # 10:00 Berlin
-    - cron: "17 9 * * *"   # 11:00 Berlin
-    - cron: "17 10 * * *"   # 12:00 Berlin
-    - cron: "17 15 * * *"   # 17:00 Berlin
-    - cron: "17 16 * * *"   # 18:00 Berlin
-    - cron: "17 17 * * *"   # 19:00 Berlin
+  # KEIN schedule mehr. GitHub hat am 25.-27.08. planmaessige Laeufe
+  # reihenweise verworfen: die Slots 06:00 und 15:00 UTC feuerten an keinem
+  # Tag, am 27.08. auch 08:00 und 09:17 nicht. Der Zeitgeber ist seitdem
+  # pg_cron in Supabase (Job "insta-tick"), der nachweislich zuverlaessig laeuft.
+  # Dieser Workflow bleibt NUR fuer manuelle Nachzuendung per Slot.
   workflow_dispatch:
     inputs:
       slot:
