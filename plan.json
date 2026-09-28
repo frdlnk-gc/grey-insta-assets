@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "posts": [
     {
       "nr": 2,
@@ -617,6 +617,20 @@
       ]
     },
     {
+      "nr": 119,
+      "datum": "2026-09-29",
+      "zeit": "08:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/77/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 77,
+      "thema": "Story Teaser Chef im Bagger"
+    },
+    {
       "nr": 204,
       "datum": "2026-09-29",
       "zeit": "18:00",
@@ -629,6 +643,20 @@
       "quelle": "mia",
       "entwurf": 78,
       "thema": "Chef im Bagger"
+    },
+    {
+      "nr": 120,
+      "datum": "2026-09-30",
+      "zeit": "08:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/79/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 79,
+      "thema": "Story Teaser Urlaubskasse"
     },
     {
       "nr": 205,
@@ -647,6 +675,20 @@
       "quelle": "mia",
       "entwurf": 80,
       "thema": "Urlaubskasse SOKA-BAU"
+    },
+    {
+      "nr": 121,
+      "datum": "2026-10-01",
+      "zeit": "08:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/81/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 81,
+      "thema": "Story Teaser Auftragszahlen"
     },
     {
       "nr": 206,
@@ -677,6 +719,20 @@
       "thema": "Neue Bau-Ausbildung seit August"
     },
     {
+      "nr": 122,
+      "datum": "2026-10-02",
+      "zeit": "17:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/84/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 84,
+      "thema": "Story Frage Gewerk"
+    },
+    {
       "nr": 208,
       "datum": "2026-10-03",
       "zeit": "10:00",
@@ -689,6 +745,20 @@
       "quelle": "mia",
       "entwurf": 147,
       "thema": "Quiz Ost-West-Tarif"
+    },
+    {
+      "nr": 123,
+      "datum": "2026-10-03",
+      "zeit": "19:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/86/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 86,
+      "thema": "Story Frage Lehre Ost West"
     },
     {
       "nr": 209,
@@ -705,6 +775,34 @@
       "thema": "Frage Lieblingsmaschine"
     },
     {
+      "nr": 124,
+      "datum": "2026-10-04",
+      "zeit": "19:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/88/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 88,
+      "thema": "Story Sonntagabend Montage"
+    },
+    {
+      "nr": 125,
+      "datum": "2026-10-05",
+      "zeit": "08:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/89/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 89,
+      "thema": "Story Teaser Auflösung Tarif"
+    },
+    {
       "nr": 210,
       "datum": "2026-10-05",
       "zeit": "18:00",
@@ -719,6 +817,20 @@
       "thema": "Auflösung Ost-West-Tarif"
     },
     {
+      "nr": 126,
+      "datum": "2026-10-06",
+      "zeit": "08:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/91/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 91,
+      "thema": "Story Teaser Leiharbeit"
+    },
+    {
       "nr": 211,
       "datum": "2026-10-06",
       "zeit": "18:00",
@@ -731,6 +843,20 @@
       "quelle": "mia",
       "entwurf": 92,
       "thema": "Leiharbeit am Bau"
+    },
+    {
+      "nr": 127,
+      "datum": "2026-10-07",
+      "zeit": "08:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/93/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 93,
+      "thema": "Story Teaser Stellenanzeige"
     },
     {
       "nr": 212,
@@ -751,6 +877,20 @@
       "thema": "Stellenanzeige am Bau"
     },
     {
+      "nr": 128,
+      "datum": "2026-10-08",
+      "zeit": "08:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/96/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 96,
+      "thema": "Story Teaser Brücken"
+    },
+    {
       "nr": 213,
       "datum": "2026-10-08",
       "zeit": "18:00",
@@ -763,6 +903,20 @@
       "quelle": "mia",
       "entwurf": 95,
       "thema": "Brückenmodernisierung Autobahn"
+    },
+    {
+      "nr": 129,
+      "datum": "2026-10-09",
+      "zeit": "08:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/97/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 97,
+      "thema": "Story Teaser Externenprüfung"
     },
     {
       "nr": 214,
@@ -797,6 +951,20 @@
       "thema": "Quiz Graben ohne Sicherung"
     },
     {
+      "nr": 130,
+      "datum": "2026-10-10",
+      "zeit": "19:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/100/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 100,
+      "thema": "Story Quiz-Erinnerung Graben"
+    },
+    {
       "nr": 216,
       "datum": "2026-10-11",
       "zeit": "11:00",
@@ -809,6 +977,34 @@
       "quelle": "mia",
       "entwurf": 101,
       "thema": "Frage Bereitschaft"
+    },
+    {
+      "nr": 131,
+      "datum": "2026-10-11",
+      "zeit": "19:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/102/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 102,
+      "thema": "Story Wochenstart"
+    },
+    {
+      "nr": 132,
+      "datum": "2026-10-12",
+      "zeit": "08:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/103/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 103,
+      "thema": "Story Teaser Auflösung Graben"
     },
     {
       "nr": 217,
@@ -825,6 +1021,20 @@
       "thema": "Auflösung Graben ohne Sicherung"
     },
     {
+      "nr": 133,
+      "datum": "2026-10-13",
+      "zeit": "08:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/105/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 105,
+      "thema": "Story Fakt Vertragsstrafe"
+    },
+    {
       "nr": 218,
       "datum": "2026-10-13",
       "zeit": "18:00",
@@ -837,6 +1047,20 @@
       "quelle": "mia",
       "entwurf": 106,
       "thema": "Bauzeit und Personal"
+    },
+    {
+      "nr": 134,
+      "datum": "2026-10-14",
+      "zeit": "08:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/107/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 107,
+      "thema": "Story Teaser Lohnabrechnung"
     },
     {
       "nr": 219,
@@ -855,6 +1079,20 @@
       "quelle": "mia",
       "entwurf": 108,
       "thema": "Zuschläge nach Bau-Tarif"
+    },
+    {
+      "nr": 135,
+      "datum": "2026-10-15",
+      "zeit": "08:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/109/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 109,
+      "thema": "Story Teaser Kommunen"
     },
     {
       "nr": 220,
@@ -885,6 +1123,20 @@
       "thema": "Gewerk Kanalbau"
     },
     {
+      "nr": 136,
+      "datum": "2026-10-16",
+      "zeit": "17:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/112/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 112,
+      "thema": "Story Frage Kanal"
+    },
+    {
       "nr": 222,
       "datum": "2026-10-17",
       "zeit": "10:00",
@@ -897,6 +1149,20 @@
       "quelle": "mia",
       "entwurf": 149,
       "thema": "Quiz Sicherungsposten Gleisbau"
+    },
+    {
+      "nr": 137,
+      "datum": "2026-10-17",
+      "zeit": "19:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/114/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 114,
+      "thema": "Story Quiz-Erinnerung Gleisbau"
     },
     {
       "nr": 223,
@@ -913,6 +1179,34 @@
       "thema": "Frage Überstunden"
     },
     {
+      "nr": 138,
+      "datum": "2026-10-18",
+      "zeit": "19:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/116/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 116,
+      "thema": "Story Sonntagabend Start"
+    },
+    {
+      "nr": 139,
+      "datum": "2026-10-19",
+      "zeit": "08:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/117/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 117,
+      "thema": "Story Teaser Auflösung Gleisbau"
+    },
+    {
       "nr": 224,
       "datum": "2026-10-19",
       "zeit": "18:00",
@@ -927,6 +1221,20 @@
       "thema": "Auflösung Sicherungsposten"
     },
     {
+      "nr": 140,
+      "datum": "2026-10-20",
+      "zeit": "08:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/119/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 119,
+      "thema": "Story Teaser Headhunter"
+    },
+    {
       "nr": 225,
       "datum": "2026-10-20",
       "zeit": "18:00",
@@ -939,6 +1247,20 @@
       "quelle": "mia",
       "entwurf": 120,
       "thema": "Headhunter-Kosten Bauleiter"
+    },
+    {
+      "nr": 141,
+      "datum": "2026-10-21",
+      "zeit": "08:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/121/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 121,
+      "thema": "Story Fakt SOKA-BAU Erstattung"
     },
     {
       "nr": 226,
@@ -959,6 +1281,20 @@
       "thema": "SOKA-BAU erstattet Azubi-Vergütung"
     },
     {
+      "nr": 142,
+      "datum": "2026-10-22",
+      "zeit": "08:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/124/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 124,
+      "thema": "Story Fakt Tiefbau-Umsatz"
+    },
+    {
       "nr": 227,
       "datum": "2026-10-22",
       "zeit": "18:00",
@@ -971,6 +1307,20 @@
       "quelle": "mia",
       "entwurf": 123,
       "thema": "Tiefbau-Umsatz 2025"
+    },
+    {
+      "nr": 143,
+      "datum": "2026-10-23",
+      "zeit": "08:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/125/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 125,
+      "thema": "Story Teaser Winter"
     },
     {
       "nr": 228,
@@ -1005,6 +1355,34 @@
       "thema": "Quiz Kanalnetz"
     },
     {
+      "nr": 144,
+      "datum": "2026-10-24",
+      "zeit": "19:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/128/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 128,
+      "thema": "Story Quiz-Erinnerung Kanal"
+    },
+    {
+      "nr": 145,
+      "datum": "2026-10-25",
+      "zeit": "08:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/129/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 129,
+      "thema": "Story Zeitumstellung"
+    },
+    {
       "nr": 230,
       "datum": "2026-10-25",
       "zeit": "11:00",
@@ -1017,6 +1395,20 @@
       "quelle": "mia",
       "entwurf": 130,
       "thema": "Zeitumstellung"
+    },
+    {
+      "nr": 146,
+      "datum": "2026-10-26",
+      "zeit": "08:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/131/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 131,
+      "thema": "Story Teaser Auflösung Kanal"
     },
     {
       "nr": 231,
@@ -1033,6 +1425,20 @@
       "thema": "Auflösung Kanalnetz"
     },
     {
+      "nr": 147,
+      "datum": "2026-10-27",
+      "zeit": "08:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/133/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 133,
+      "thema": "Story Teaser Altersstruktur"
+    },
+    {
       "nr": 232,
       "datum": "2026-10-27",
       "zeit": "18:00",
@@ -1045,6 +1451,20 @@
       "quelle": "mia",
       "entwurf": 134,
       "thema": "Altersstruktur am Bau"
+    },
+    {
+      "nr": 148,
+      "datum": "2026-10-28",
+      "zeit": "08:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/135/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 135,
+      "thema": "Story Fakt verdeckter Markt"
     },
     {
       "nr": 233,
@@ -1063,6 +1483,20 @@
       "quelle": "mia",
       "entwurf": 136,
       "thema": "Verdeckter Stellenmarkt"
+    },
+    {
+      "nr": 149,
+      "datum": "2026-10-29",
+      "zeit": "08:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/137/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 137,
+      "thema": "Story Frage Absturzsicherung"
     },
     {
       "nr": 234,
@@ -1093,6 +1527,20 @@
       "thema": "Gewerk Baugeräteführer"
     },
     {
+      "nr": 150,
+      "datum": "2026-10-30",
+      "zeit": "17:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/140/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 140,
+      "thema": "Story Freitag Hänger"
+    },
+    {
       "nr": 236,
       "datum": "2026-10-31",
       "zeit": "10:00",
@@ -1107,6 +1555,20 @@
       "thema": "Quiz Ausbildungsvergütung"
     },
     {
+      "nr": 151,
+      "datum": "2026-10-31",
+      "zeit": "19:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/142/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 142,
+      "thema": "Story Quiz-Erinnerung Azubi"
+    },
+    {
       "nr": 237,
       "datum": "2026-11-01",
       "zeit": "11:00",
@@ -1119,6 +1581,34 @@
       "quelle": "mia",
       "entwurf": 143,
       "thema": "Frage November"
+    },
+    {
+      "nr": 152,
+      "datum": "2026-11-01",
+      "zeit": "19:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/144/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 144,
+      "thema": "Story November"
+    },
+    {
+      "nr": 153,
+      "datum": "2026-11-02",
+      "zeit": "08:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/145/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 145,
+      "thema": "Story Teaser Auflösung Azubi"
     },
     {
       "nr": 238,
