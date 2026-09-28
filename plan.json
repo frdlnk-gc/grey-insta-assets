@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "posts": [
     {
       "nr": 2,
@@ -615,6 +615,524 @@
       "kommentare": [
         "Danke fürs Mitlesen im ersten Monat. 🦺"
       ]
+    },
+    {
+      "nr": 204,
+      "datum": "2026-09-29",
+      "zeit": "18:00",
+      "typ": "bild",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/78/kachel-01.jpg"
+      ],
+      "caption": "Dienstag, 6:15 Uhr. Der Baggerfahrer ist krank, Ersatz gibt es keinen, also fährt der Chef.\n\nEinmal ist das Einsatz. Wenn es zur Regel wird, fehlt dem Betrieb der Mensch, der die Angebote rechnet und die nächste Ausschreibung vorbereitet. Tiefbau-Fachkräfte stehen auf der Engpassliste der Bundesagentur für Arbeit, eine Stelle bleibt dort im Median 92 Tage offen.\n\nWie oft saßen Sie dieses Jahr selbst auf der Maschine?\n\n👉 Link im Profil\n\nQuelle: Bundesagentur für Arbeit, Engpassanalyse 2025\n\n#tiefbau #bauunternehmen #baumaschinen",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 78,
+      "thema": "Chef im Bagger"
+    },
+    {
+      "nr": 205,
+      "datum": "2026-09-30",
+      "zeit": "12:00",
+      "typ": "karussell",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/80/kachel-01.jpg",
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/80/kachel-02.jpg",
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/80/kachel-03.jpg",
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/80/kachel-04.jpg",
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/80/kachel-06.jpg"
+      ],
+      "caption": "Wer am Bau den Betrieb wechselt, verliert seinen Urlaub nicht.\n\nDer Bau-Tarif sieht 30 Arbeitstage Urlaub im Jahr vor. Die Ansprüche sammelst du auf einem Urlaubskonto bei der Urlaubskasse der Bauwirtschaft, und zwar über alle Baubetriebe hinweg: je 12 Beschäftigungstage ein Urlaubstag. Die Urlaubsvergütung liegt bei 14,25 Prozent vom Bruttolohn, das zusätzliche Urlaubsgeld ist darin enthalten.\n\nWer über einen Wechsel nachdenkt: Schreib JOB unter diesen Post.\n\nQuellen: Bundesrahmentarifvertrag Bau, § 8; SOKA-BAU\n\n#urlaub #bauhauptgewerbe #baujobs",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 80,
+      "thema": "Urlaubskasse SOKA-BAU"
+    },
+    {
+      "nr": 206,
+      "datum": "2026-10-01",
+      "zeit": "18:00",
+      "typ": "bild",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/82/kachel-01.jpg"
+      ],
+      "caption": "12,1 Milliarden Euro Umsatz im Juli. Das ist real ein Plus von 4,6 Prozent zum Vorjahresmonat.\n\nBei den Aufträgen ist das Bild gemischt: Im Juli kamen 9,2 Prozent weniger rein als im Juni, gegenüber dem Juli 2025 real 1,9 Prozent weniger. Über die drei Monate Mai bis Juli liegt der Auftragseingang aber 2,7 Prozent über den drei Monaten davor, im Tiefbau sogar 7,6 Prozent.\n\nWie sieht Ihr Auftragsbuch für den Winter aus?\n\n👉 Link im Profil\n\nQuelle: Statistisches Bundesamt, Pressemitteilung vom 25.09.2026, Betriebe ab 20 Beschäftigten\n\n#bauhauptgewerbe #tiefbau #baukonjunktur",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 82,
+      "thema": "Destatis Juli 2026"
+    },
+    {
+      "nr": 207,
+      "datum": "2026-10-02",
+      "zeit": "12:00",
+      "typ": "bild",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/83/kachel-01.jpg"
+      ],
+      "caption": "Seit dem 1. August 2026 gilt am Bau eine neue Ausbildungsordnung.\n\nAus dem Rohrleitungsbauer wird der Leitungsbauer für Infrastrukturtechnik, der Kanalbauer heißt jetzt Kanalbauer für Infrastrukturtechnik. Die alte Stufenausbildung gibt es für neue Azubis nicht mehr: Wer zwei Jahre Tiefbaufacharbeiter lernt, kann sich die 24 Monate auf einen dreijährigen Beruf wie Straßenbauer oder Spezialtiefbauer anrechnen lassen, wenn Betrieb und Azubi das vereinbaren. Insgesamt wurden 19 Bauberufe neu geordnet.\n\nWer schon mitten in der Ausbildung ist, lernt nach den alten Regeln zu Ende.\n\n👉 bau.green-careers.de\n\nQuelle: Verordnung zur Neuordnung der Ausbildung in der Bauwirtschaft, BGBl. 2024 I Nr. 179, in Kraft seit 1. August 2026\n\n#ausbildungambau #tiefbau #baujobs",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 83,
+      "thema": "Neue Bau-Ausbildung seit August"
+    },
+    {
+      "nr": 208,
+      "datum": "2026-10-03",
+      "zeit": "10:00",
+      "typ": "bild",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/147/kachel-01.jpg"
+      ],
+      "caption": "Passend zum 3. Oktober: Seit wann verdienen Bauleute in Ost und West tariflich dasselbe?\n\nA, B oder C in die Kommentare. Die Auflösung kommt am Montag.\n\nGemeint ist der Tarif im Bauhauptgewerbe, also die Lohngruppen vom Werker bis zum Polier.\n\n👉 Link im Profil\n\n#bauhauptgewerbe #tarif #baujobs",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 147,
+      "thema": "Quiz Ost-West-Tarif"
+    },
+    {
+      "nr": 209,
+      "datum": "2026-10-04",
+      "zeit": "11:00",
+      "typ": "bild",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/87/kachel-01.jpg"
+      ],
+      "caption": "Welche Maschine würdest du nie wieder hergeben?\n\nDer eine schwört auf seinen Mobilbagger mit Tiltrotator, die andere auf die kleine Tandemwalze, mit der man auch in die engste Hofeinfahrt kommt. Und fast jede Kolonne hat den einen Radlader, der morgens erst nach dem dritten Versuch anspringt.\n\nSchreib deine Maschine in die Kommentare, gern mit Baujahr.\n\n#baumaschinen #tiefbau #baujobs",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 87,
+      "thema": "Frage Lieblingsmaschine"
+    },
+    {
+      "nr": 210,
+      "datum": "2026-10-05",
+      "zeit": "18:00",
+      "typ": "bild",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/90/kachel-01.jpg"
+      ],
+      "caption": "Auflösung: C. Erst seit dem 1. April 2026 gilt im Bauhauptgewerbe bundesweit derselbe Tariflohn.\n\nDie Angleichung kam in einem Schritt: plus 3,9 Prozent im Westen, plus 5,3 Prozent im Osten. Das gilt auch für die Gehälter und die Ausbildungsvergütungen, zum ersten Mal seit der Wiedervereinigung.\n\nWer in Sachsen eine Walze fährt, hat nach Tarif heute dieselbe Zahl auf der Abrechnung wie in Köln.\n\n👉 Link im Profil\n\nQuelle: IG BAU, Tarifeinigung Bauhauptgewerbe, März 2026\n\n#tarif #strassenbau #bauhauptgewerbe",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 90,
+      "thema": "Auflösung Ost-West-Tarif"
+    },
+    {
+      "nr": 211,
+      "datum": "2026-10-06",
+      "zeit": "18:00",
+      "typ": "bild",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/92/kachel-01.jpg"
+      ],
+      "caption": "Kurzfristig zwei Leute über eine Zeitarbeitsfirma holen, bis die Stelle besetzt ist?\n\nIm Bauhauptgewerbe geht das in der Regel nicht. § 1b des Arbeitnehmerüberlassungsgesetzes erklärt Leiharbeit in Baubetrieben für Arbeiten, die üblicherweise von Arbeitern erledigt werden, für unzulässig. Ausnahmen gibt es nur eng begrenzt, etwa zwischen Baubetrieben, die seit mindestens drei Jahren unter dieselben Rahmen- und Sozialkassentarifverträge fallen.\n\nWer eine Kolonne auffüllen will, muss also einstellen oder einen Nachunternehmer beauftragen. Wie gehen Sie mit Engpässen gerade um?\n\n👉 Link im Profil\n\nQuelle: § 1b AÜG\n\n#bauunternehmen #bauhauptgewerbe #fachkräftemangel",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 92,
+      "thema": "Leiharbeit am Bau"
+    },
+    {
+      "nr": 212,
+      "datum": "2026-10-07",
+      "zeit": "12:00",
+      "typ": "karussell",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/94/kachel-01.jpg",
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/94/kachel-02.jpg",
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/94/kachel-03.jpg",
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/94/kachel-04.jpg",
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/94/kachel-07.jpg"
+      ],
+      "caption": "Ein bis vier Bewerbungen bekommt eine Polier-Anzeige meistens. Fachlich passt davon oft nur eine.\n\nEine Anzeige hat bessere Chancen, wenn sie die Fragen beantwortet, die ein Facharbeiter vor dem ersten Anruf hat: welche Lohngruppe, welches Gewerk, welche Maschine, wie oft Montage. Und wer am anderen Ende des Telefons sitzt.\n\nWelche Angabe fehlt in Ihren Anzeigen am häufigsten?\n\n👉 Link im Profil\n\nQuelle: Recruiting-Report 2026 Straßen- & Tiefbau; Bundesrahmentarifvertrag Bau\n\n#bauunternehmen #stellenanzeige #recruiting",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 94,
+      "thema": "Stellenanzeige am Bau"
+    },
+    {
+      "nr": 213,
+      "datum": "2026-10-08",
+      "zeit": "18:00",
+      "typ": "bild",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/95/kachel-01.jpg"
+      ],
+      "caption": "Rund 4.000 Brücken-Teilbauwerke im Autobahn-Kernnetz sollen bis 2032 modernisiert werden.\n\nSo steht es in der Antwort der Bundesregierung an den Bundestag vom Oktober 2025. Rechnerisch sind das rund 400 im Jahr. Für 2026 sind rund 200 Teilbauwerke mit etwa 360.000 Quadratmetern Brückenfläche geplant, bis 2030 soll die Zahl auf über 400 pro Jahr steigen. Der Bundesrechnungshof hatte das Tempo bereits 2025 als zu langsam kritisiert.\n\nDie Arbeit im Brückenbau ist für Jahre da. Offen ist, wer sie baut.\n\n👉 Link im Profil\n\nQuellen: Bundestag, Drucksache 21/2449; Bundesrechnungshof, April 2025\n\n#brückenbau #infrastruktur #bauunternehmen",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 95,
+      "thema": "Brückenmodernisierung Autobahn"
+    },
+    {
+      "nr": 214,
+      "datum": "2026-10-09",
+      "zeit": "12:00",
+      "typ": "karussell",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/98/kachel-01.jpg",
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/98/kachel-02.jpg",
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/98/kachel-03.jpg",
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/98/kachel-04.jpg",
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/98/kachel-06.jpg"
+      ],
+      "caption": "Viereinhalb Jahre im Beruf, und du darfst zur Gesellenprüfung. Auch ohne Ausbildungsvertrag.\n\nDas regeln § 37 der Handwerksordnung und § 45 des Berufsbildungsgesetzes: Zugelassen wird, wer mindestens das Eineinhalbfache der Ausbildungszeit im Beruf gearbeitet hat. Bei Straßenbauern oder Maurern mit drei Jahren Ausbildung sind das viereinhalb Jahre. Mit dem Gesellenbrief hast du deinen Abschluss schwarz auf weiß, auch für den nächsten Betrieb.\n\nSchreib JOB unter diesen Post, dann kommt der Link zu den offenen Stellen per Nachricht.\n\nQuelle: § 37 Abs. 2 HwO, § 45 Abs. 2 BBiG\n\n#quereinstieg #gesellenbrief #baujobs",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 98,
+      "thema": "Gesellenbrief über Externenprüfung"
+    },
+    {
+      "nr": 215,
+      "datum": "2026-10-10",
+      "zeit": "10:00",
+      "typ": "bild",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/148/kachel-01.jpg"
+      ],
+      "caption": "Wer weiß es? Wie tief darf ein Graben mit senkrechten Wänden höchstens sein, bevor er gesichert werden muss?\n\nA, B oder C in die Kommentare. Die Auflösung kommt am Montag.\n\nGemeint ist die Regel für Baugruben und Gräben, die auf jeder Tiefbaustelle gilt.\n\n👉 Link im Profil\n\n#tiefbau #arbeitsschutz #baujobs",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 148,
+      "thema": "Quiz Graben ohne Sicherung"
+    },
+    {
+      "nr": 216,
+      "datum": "2026-10-11",
+      "zeit": "11:00",
+      "typ": "bild",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/101/kachel-01.jpg"
+      ],
+      "caption": "Sonntag, und das Diensthandy liegt trotzdem neben dir.\n\nIm Rohrleitungs- und Kanalbau gehört Bereitschaft für viele dazu: Wasserrohrbruch am Samstagabend, abgesackter Schachtdeckel am Feiertag. Wie oft das vorkommt und wie es bezahlt wird, ist von Betrieb zu Betrieb sehr verschieden.\n\nWie oft musstest du dieses Jahr am Wochenende raus?\n\n#rohrleitungsbau #kanalbau #baujobs",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 101,
+      "thema": "Frage Bereitschaft"
+    },
+    {
+      "nr": 217,
+      "datum": "2026-10-12",
+      "zeit": "18:00",
+      "typ": "bild",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/104/kachel-01.jpg"
+      ],
+      "caption": "Auflösung: B. Bis 1,25 Meter Tiefe darf ein Graben mit senkrechten Wänden ohne Sicherung ausgehoben werden.\n\nVoraussetzung: Das Gelände daneben steigt nur flach an, und Fahrzeuge und Baumaschinen halten ihren Abstand zur Kante. Bei steifem bindigem Boden sind bis 1,75 Meter möglich, wenn der Teil über 1,25 Meter mit höchstens 45 Grad abgeböscht ist. Alles darüber wird geböscht oder verbaut.\n\n👉 bau.green-careers.de\n\nQuellen: DGUV Vorschrift 38, § 5; DGUV Information 201-052; DIN 4124\n\n#tiefbau #kanalbau #arbeitsschutz",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 104,
+      "thema": "Auflösung Graben ohne Sicherung"
+    },
+    {
+      "nr": 218,
+      "datum": "2026-10-13",
+      "zeit": "18:00",
+      "typ": "bild",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/106/kachel-01.jpg"
+      ],
+      "caption": "Bauzeit verpasst, weil die zweite Kolonne nie voll wurde? Das Risiko liegt bei Ihnen.\n\nFehlendes eigenes Personal gehört nach § 6 Abs. 2 VOB/B nicht zu den Gründen, die eine Ausführungsfrist verlängern. Vereinbarte Vertragsstrafen dürfen bis zu 5 Prozent der Auftragssumme erreichen, diese Obergrenze hat der Bundesgerichtshof 2003 gezogen.\n\nWer im Frühjahr Termine zusagt, braucht die Kolonne deshalb vorher voll.\n\n👉 Link im Profil\n\nQuellen: § 6 VOB/B; BGH, Urteil vom 23.01.2003, VII ZR 210/01\n\n#bauunternehmen #vob #bauleitung",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 106,
+      "thema": "Bauzeit und Personal"
+    },
+    {
+      "nr": 219,
+      "datum": "2026-10-14",
+      "zeit": "12:00",
+      "typ": "karussell",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/108/kachel-01.jpg",
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/108/kachel-02.jpg",
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/108/kachel-03.jpg",
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/108/kachel-04.jpg",
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/108/kachel-06.jpg"
+      ],
+      "caption": "25 Prozent für jede Überstunde, 75 Prozent am Sonntag. So steht es im Rahmentarifvertrag für den Bau.\n\nDie Zuschläge werden auf den Gesamttarifstundenlohn gerechnet, als Nacht gilt nach dem Tarifvertrag die Zeit von 20 bis 5 Uhr. Wer auf wechselnden Baustellen mehr als acht Stunden unterwegs ist, bekommt zusätzlich einen Verpflegungszuschuss. In tarifgebundenen Betrieben kommt das 13. Monatseinkommen dazu, zur Hälfte mit dem Novemberlohn.\n\nSchau einmal auf deine letzte Abrechnung: Steht das alles drauf?\n\nQuellen: Bundesrahmentarifvertrag Bau, § 3 und § 7; TV 13. Monatseinkommen Baugewerbe\n\n#lohnabrechnung #tarif #baujobs",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 108,
+      "thema": "Zuschläge nach Bau-Tarif"
+    },
+    {
+      "nr": 220,
+      "datum": "2026-10-15",
+      "zeit": "18:00",
+      "typ": "bild",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/110/kachel-01.jpg"
+      ],
+      "caption": "53,7 Milliarden Euro. So groß ist der Investitionsrückstand der Kommunen bei Straßen und Verkehrswegen.\n\nInsgesamt sehen die Städte und Gemeinden einen Rückstand von 231,2 Milliarden Euro, 7,2 Prozent mehr als im Vorjahr. Straßen und Verkehr machen davon 23,2 Prozent aus. 30 Prozent der Kommunen sagen, dass sie den Unterhalt ihrer Straßen nicht oder kaum leisten können, in Ostdeutschland sind es 47 Prozent.\n\nFür den kommunalen Straßenbau liegt die Arbeit längst auf dem Tisch. Wie viel Ihres Umsatzes kommt heute von Kommunen?\n\n👉 Link im Profil\n\nQuelle: KfW-Kommunalpanel 2026, Juni 2026\n\n#strassenbau #kommunen #tiefbau",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 110,
+      "thema": "KfW Investitionsrückstand Straßen"
+    },
+    {
+      "nr": 221,
+      "datum": "2026-10-16",
+      "zeit": "12:00",
+      "typ": "bild",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/111/kachel-01.jpg"
+      ],
+      "caption": "190 Tage. So lange bleibt im Kanal- und Tunnelbau eine Stelle für Fachkräfte offen, gerechnet als Median bis zur Abmeldung.\n\nIm Straßen- und Asphaltbau sind es 80 Tage, im Gleisbau 164. Unter den Tiefbau-Berufen der Engpassanalyse ist das der längste Wert. Und die Arbeit wird nicht weniger: Nach der letzten DWA-Umfrage sind 18,7 Prozent der Kanalhaltungen in Deutschland kurz- bis mittelfristig sanierungsbedürftig.\n\nWer Kanalbau kann, sitzt am längeren Hebel.\n\n👉 bau.green-careers.de\n\nQuellen: Bundesagentur für Arbeit, Engpassanalyse 2025; DWA-Umfrage 2020\n\n#kanalbau #tiefbau #baujobs",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 111,
+      "thema": "Gewerk Kanalbau"
+    },
+    {
+      "nr": 222,
+      "datum": "2026-10-17",
+      "zeit": "10:00",
+      "typ": "bild",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/149/kachel-01.jpg"
+      ],
+      "caption": "Wer weiß es? Wie alt muss man mindestens sein, um im Gleisbau als Sicherungsposten zu arbeiten?\n\nA, B oder C in die Kommentare. Die Auflösung kommt am Montag.\n\nKleiner Hinweis: Die Regel hat sich vor nicht allzu langer Zeit geändert.\n\n👉 Link im Profil\n\n#gleisbau #bahnbau #baujobs",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 149,
+      "thema": "Quiz Sicherungsposten Gleisbau"
+    },
+    {
+      "nr": 223,
+      "datum": "2026-10-18",
+      "zeit": "11:00",
+      "typ": "bild",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/115/kachel-01.jpg"
+      ],
+      "caption": "Überstunden aufs Arbeitszeitkonto oder direkt ausbezahlt?\n\nDie einen sparen im Sommer Stunden an, damit im Winter bei Frost und Regen der Lohn weiterläuft. Die anderen wollen das Geld lieber sofort auf der Abrechnung sehen. Beides hat seinen Grund, und in vielen Betrieben gibt es dafür eine feste Regel.\n\nWie läuft es bei dir?\n\n#baujobs #bauhauptgewerbe #tiefbau",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 115,
+      "thema": "Frage Überstunden"
+    },
+    {
+      "nr": 224,
+      "datum": "2026-10-19",
+      "zeit": "18:00",
+      "typ": "bild",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/118/kachel-01.jpg"
+      ],
+      "caption": "Auflösung: B. Sicherungsposten im Gleisbau müssen seit dem 1. Januar 2025 mindestens 18 Jahre alt sein.\n\nVorher lag die Grenze bei 21. Während des Einsatzes dürfen Sicherungsposten nichts anderes tun als sichern. Eine Postensicherung am nicht gesperrten Gleis ist nur erlaubt, wenn die Räumzeit höchstens 20 Sekunden beträgt. Bei der DB brauchen Sicherungsposten seit 2025 den elektronischen Befähigungsausweis.\n\n👉 bau.green-careers.de\n\nQuellen: DGUV Vorschrift 78; BG BAU; DB InfraGO\n\n#gleisbau #arbeitsschutz #baujobs",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 118,
+      "thema": "Auflösung Sicherungsposten"
+    },
+    {
+      "nr": 225,
+      "datum": "2026-10-20",
+      "zeit": "18:00",
+      "typ": "bild",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/120/kachel-01.jpg"
+      ],
+      "caption": "13.000 bis 25.000 Euro. So viel kostet ein Bauleiter, wenn ihn ein Headhunter vermittelt.\n\nDie übliche Provision liegt bei 25 bis 35 Prozent des ersten Jahresgehalts. Bei einem Bauleiter im Tiefbau mit rund 70.000 Euro Jahresgehalt landet man genau in dieser Spanne. Dazu kommt die Zeit, bis die Stelle tatsächlich besetzt ist.\n\nWie haben Sie Ihre letzte Führungsstelle auf der Baustelle besetzt?\n\n👉 Link im Profil\n\nQuelle: Recruiting-Report 2026 Straßen- & Tiefbau\n\n#bauunternehmen #recruiting #bauleiter",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 120,
+      "thema": "Headhunter-Kosten Bauleiter"
+    },
+    {
+      "nr": 226,
+      "datum": "2026-10-21",
+      "zeit": "12:00",
+      "typ": "karussell",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/122/kachel-01.jpg",
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/122/kachel-02.jpg",
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/122/kachel-03.jpg",
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/122/kachel-04.jpg",
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/122/kachel-05.jpg"
+      ],
+      "caption": "Zehn Monate Ausbildungsvergütung im ersten Jahr bekommen Bauunternehmen von SOKA-BAU zurück.\n\nIm zweiten Ausbildungsjahr erstattet die Sozialkasse sechs Monate, im dritten einen Monat, jeweils plus 20 Prozent der Bruttovergütung als Ausgleich für die Sozialaufwendungen. Das gilt für gewerbliche Auszubildende in Betrieben, die am Sozialkassenverfahren teilnehmen.\n\nDer größere Einsatz ist die Zeit, die ein Polier für den Azubi aufbringt. Bilden Sie aktuell aus?\n\n👉 Link im Profil\n\nQuelle: SOKA-BAU, Erstattung der Ausbildungsvergütung, Stand 2026\n\n#ausbildungambau #bauunternehmen #sokabau",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 122,
+      "thema": "SOKA-BAU erstattet Azubi-Vergütung"
+    },
+    {
+      "nr": 227,
+      "datum": "2026-10-22",
+      "zeit": "18:00",
+      "typ": "bild",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/123/kachel-01.jpg"
+      ],
+      "caption": "Der Tiefbau hat 2025 mehr umgesetzt als der Hochbau: 61,7 Milliarden Euro gegenüber 57,4 Milliarden.\n\nReal ist der Tiefbau um 5,8 Prozent gewachsen. Straßen, Leitungen, Kanäle und Brücken tragen die Branche gerade stärker als der Hochbau.\n\nWie voll ist Ihr Auftragsbuch für das Frühjahr?\n\n👉 Link im Profil\n\nQuelle: Statistisches Bundesamt, Betriebe ab 20 Beschäftigten, 2025\n\n#tiefbau #bauunternehmen #bauhauptgewerbe",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 123,
+      "thema": "Tiefbau-Umsatz 2025"
+    },
+    {
+      "nr": 228,
+      "datum": "2026-10-23",
+      "zeit": "12:00",
+      "typ": "karussell",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/126/kachel-01.jpg",
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/126/kachel-02.jpg",
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/126/kachel-03.jpg",
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/126/kachel-04.jpg",
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/126/kachel-06.jpg"
+      ],
+      "caption": "Ab dem 1. Dezember beginnt am Bau die Schlechtwetterzeit. Bis Ende März gelten dann eigene Regeln für Lohn und Ausfall.\n\nFällt die Arbeit aus, gibt es Saison-Kurzarbeitergeld: 60 Prozent der Nettoentgeltdifferenz, mit Kind 67 Prozent. Wer dafür Stunden vom Arbeitszeitkonto einsetzt, bekommt bis zu 2,50 Euro Zuschuss-Wintergeld je Stunde. Vom 15. Dezember bis Ende Februar gibt es außerdem an witterungsabhängigen Arbeitsplätzen einen Euro Mehraufwands-Wintergeld für jede gearbeitete Stunde.\n\nWas davon kanntest du schon?\n\nQuellen: § 101 und § 102 SGB III; Bundesagentur für Arbeit, Merkblatt 8d; Winterbeschäftigungs-Verordnung\n\n#winterbau #bauhauptgewerbe #baujobs",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 126,
+      "thema": "Winterbau: was dir zusteht"
+    },
+    {
+      "nr": 229,
+      "datum": "2026-10-24",
+      "zeit": "10:00",
+      "typ": "bild",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/150/kachel-01.jpg"
+      ],
+      "caption": "Wer weiß es? Wie lang ist das öffentliche Kanalnetz unter Deutschlands Straßen?\n\nA, B oder C in die Kommentare. Die Auflösung kommt am Montag.\n\nGemeint sind alle öffentlichen Abwasserkanäle, also Misch- und Trennkanalisation zusammen.\n\n👉 Link im Profil\n\n#kanalbau #tiefbau #baujobs",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 150,
+      "thema": "Quiz Kanalnetz"
+    },
+    {
+      "nr": 230,
+      "datum": "2026-10-25",
+      "zeit": "11:00",
+      "typ": "bild",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/130/kachel-01.jpg"
+      ],
+      "caption": "Heute Nacht wurde die Uhr zurückgestellt. Eine Stunde mehr Schlaf.\n\nDafür geht es auf vielen Baustellen ab jetzt wieder in der Dämmerung los, und spätestens im November im Dunkeln. Saubere Warnkleidung und gut ausgeleuchtete Arbeitsbereiche sind in den nächsten Monaten keine Formsache.\n\nWann ist bei dir morgens Arbeitsbeginn?\n\n#baustelle #arbeitsschutz #baujobs",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 130,
+      "thema": "Zeitumstellung"
+    },
+    {
+      "nr": 231,
+      "datum": "2026-10-26",
+      "zeit": "18:00",
+      "typ": "bild",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/132/kachel-01.jpg"
+      ],
+      "caption": "Auflösung: C. Das öffentliche Kanalnetz in Deutschland ist rund 619.000 Kilometer lang.\n\nDas reicht gut fünfzehnmal um die Erde. Etwa 249.000 Kilometer davon sind Mischkanalisation, 370.000 Kilometer Trennkanalisation mit getrennten Leitungen für Schmutz- und Regenwasser. Instand halten müssen das alles Kanal- und Leitungsbauer.\n\n👉 bau.green-careers.de\n\nQuelle: Statistisches Bundesamt, Stand 2022\n\n#kanalbau #rohrleitungsbau #tiefbau",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 132,
+      "thema": "Auflösung Kanalnetz"
+    },
+    {
+      "nr": 232,
+      "datum": "2026-10-27",
+      "zeit": "18:00",
+      "typ": "bild",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/134/kachel-01.jpg"
+      ],
+      "caption": "Mehr als jeder vierte gewerbliche Arbeitnehmer am Bau ist älter als 55.\n\nDas zeigt der aktuelle Fachkräftereport der SOKA-BAU mit Stand Ende 2025. In den nächsten zehn Jahren gehen danach mehr als 200.000 Beschäftigte in Rente, und mit ihnen viel Erfahrung aus den Kolonnen.\n\nWer übernimmt bei Ihnen, wenn Ihre Erfahrensten gehen?\n\n👉 Link im Profil\n\nQuelle: SOKA-BAU, Ausbildungs- und Fachkräftereport 2025\n\n#bauunternehmen #fachkräftemangel #nachfolge",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 134,
+      "thema": "Altersstruktur am Bau"
+    },
+    {
+      "nr": 233,
+      "datum": "2026-10-28",
+      "zeit": "12:00",
+      "typ": "karussell",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/136/kachel-01.jpg",
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/136/kachel-02.jpg",
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/136/kachel-03.jpg",
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/136/kachel-04.jpg",
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/136/kachel-06.jpg"
+      ],
+      "caption": "Nach unserer Schätzung sucht nur jede fünfte Fachkraft im Tiefbau aktiv nach einer Stelle. Die Hälfte sucht gar nicht.\n\nDazwischen liegen rund 30 Prozent, die offen für ein gutes Angebot sind, aber selten Anzeigen lesen. Über ein spezialisiertes Netzwerk dauert eine Besetzung 45 bis 90 Tage, über allgemeine Portale 60 bis 120.\n\nWie haben Sie Ihre letzten zwei Leute gefunden?\n\n👉 Link im Profil\n\nQuelle: Recruiting-Report 2026 Straßen- & Tiefbau (Schätzung auf Basis von BA-Daten)\n\n#bauunternehmen #tiefbau #recruiting",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 136,
+      "thema": "Verdeckter Stellenmarkt"
+    },
+    {
+      "nr": 234,
+      "datum": "2026-10-29",
+      "zeit": "18:00",
+      "typ": "bild",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/138/kachel-01.jpg"
+      ],
+      "caption": "74 Menschen sind 2025 bei der Arbeit am Bau ums Leben gekommen. 41 Prozent davon durch Abstürze.\n\nDie BG BAU zählt für 2025 insgesamt 89.113 meldepflichtige Arbeitsunfälle, 2,9 Prozent weniger als im Jahr davor. Nach den Abstürzen folgen herabfallende oder kippende Teile mit 19 Prozent und Angefahren- oder Überfahrenwerden mit 14 Prozent der tödlichen Unfälle.\n\nIm Herbst kommen Nässe und frühe Dunkelheit dazu. Pass auf dich und deine Kolonne auf.\n\nQuelle: BG BAU, Jahreszahlen 2025, Juli 2026\n\n#arbeitsschutz #baustelle #bauhauptgewerbe",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 138,
+      "thema": "Arbeitsunfälle am Bau 2025"
+    },
+    {
+      "nr": 235,
+      "datum": "2026-10-30",
+      "zeit": "12:00",
+      "typ": "bild",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/139/kachel-01.jpg"
+      ],
+      "caption": "Einen gesetzlichen Baggerführerschein gibt es nicht. Wer Bagger oder Radlader fahren darf, entscheidet der Betrieb.\n\nVoraussetzung für Erdbaumaschinen: mindestens 18 Jahre, geeignet, unterwiesen und vom Unternehmer beauftragt, am besten schriftlich. Wer es von Grund auf lernen will, macht die dreijährige Ausbildung zum Baugeräteführer. Im dritten Jahr lernst du dort, mindestens zwei Baugeräte wie Hydraulikbagger, Radlader oder Turmkran selbstständig zu bedienen.\n\nWelche Maschine bist du zuerst gefahren?\n\n👉 bau.green-careers.de\n\nQuellen: BG BAU; DGUV Grundsatz 301-005; Ausbildungsverordnung Baugeräteführer\n\n#baugeräteführer #baumaschinen #baujobs",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 139,
+      "thema": "Gewerk Baugeräteführer"
+    },
+    {
+      "nr": 236,
+      "datum": "2026-10-31",
+      "zeit": "10:00",
+      "typ": "bild",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/151/kachel-01.jpg"
+      ],
+      "caption": "Wer weiß es? Was verdient ein Azubi im Bauhauptgewerbe im ersten Lehrjahr nach Tarif?\n\nA, B oder C in die Kommentare. Die Auflösung kommt am Montag.\n\nGemeint ist die monatliche Ausbildungsvergütung für gewerbliche Azubis, brutto.\n\n👉 Link im Profil\n\n#ausbildungambau #azubi #baujobs",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 151,
+      "thema": "Quiz Ausbildungsvergütung"
+    },
+    {
+      "nr": 237,
+      "datum": "2026-11-01",
+      "zeit": "11:00",
+      "typ": "bild",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/143/kachel-01.jpg"
+      ],
+      "caption": "Ab heute ist November. Auf vielen Baustellen beginnt jetzt der Endspurt vor dem Winter.\n\nIm Straßenbau entscheidet das Wetter, ob die Deckschicht dieses Jahr noch eingebaut wird. Im Rohbau wird mit Planen und Heizung weitergemacht, und im Kanalbau geht es ohnehin oft das ganze Jahr durch.\n\nWie lange wird bei dir noch gebaut?\n\n#strassenbau #hochbau #baujobs",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 143,
+      "thema": "Frage November"
+    },
+    {
+      "nr": 238,
+      "datum": "2026-11-02",
+      "zeit": "18:00",
+      "typ": "bild",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/146/kachel-01.jpg"
+      ],
+      "caption": "Auflösung: B. 1.122 Euro brutto im Monat bekommen gewerbliche Azubis am Bau im ersten Lehrjahr.\n\nIm zweiten Jahr sind es 1.351 Euro, im dritten 1.610 Euro, im vierten 1.714 Euro. Seit dem 1. April 2026 gelten diese Beträge in Ost und West gleich. Wer eine Landes- oder Bundesfachklasse besucht, bekommt 60 Euro mehr.\n\n👉 bau.green-careers.de\n\nQuelle: Tarifvertrag Lohn Bauhauptgewerbe West und Ost, gültig seit 1. April 2026\n\n#ausbildungambau #azubi #bauhauptgewerbe",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 146,
+      "thema": "Auflösung Ausbildungsvergütung"
     }
   ]
 }
