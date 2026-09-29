@@ -1,5 +1,5 @@
 {
-  "version": 16,
+  "version": 17,
   "posts": [
     {
       "nr": 2,
@@ -1813,6 +1813,22 @@
       "quelle": "mia",
       "entwurf": 139,
       "thema": "Gewerk Baugeräteführer"
+    },
+    {
+      "nr": 171,
+      "datum": "2026-10-30",
+      "zeit": "12:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/188/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 188,
+      "thema": "Story Humor Leitungsplan",
+      "zielgruppe": "fachkraefte",
+      "vorlage": "humor"
     },
     {
       "nr": 150,
