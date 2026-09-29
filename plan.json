@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 6,
   "posts": [
     {
       "nr": 2,
@@ -677,6 +677,22 @@
       "thema": "Urlaubskasse SOKA-BAU"
     },
     {
+      "nr": 154,
+      "datum": "2026-09-30",
+      "zeit": "12:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/153/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 153,
+      "thema": "Story Tipp Einweiser",
+      "zielgruppe": "fachkraefte",
+      "vorlage": "tipp"
+    },
+    {
       "nr": 121,
       "datum": "2026-10-01",
       "zeit": "08:00",
@@ -717,6 +733,22 @@
       "quelle": "mia",
       "entwurf": 83,
       "thema": "Neue Bau-Ausbildung seit August"
+    },
+    {
+      "nr": 155,
+      "datum": "2026-10-02",
+      "zeit": "12:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/155/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 155,
+      "thema": "Story Humor Baugrube",
+      "zielgruppe": "fachkraefte",
+      "vorlage": "humor"
     },
     {
       "nr": 122,
