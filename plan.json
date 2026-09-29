@@ -1,5 +1,5 @@
 {
-  "version": 9,
+  "version": 10,
   "posts": [
     {
       "nr": 2,
@@ -1215,6 +1215,22 @@
       "quelle": "mia",
       "entwurf": 108,
       "thema": "Zuschläge nach Bau-Tarif"
+    },
+    {
+      "nr": 162,
+      "datum": "2026-10-14",
+      "zeit": "12:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/169/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 169,
+      "thema": "Story Tipp Gehörschutz",
+      "zielgruppe": "fachkraefte",
+      "vorlage": "tipp"
     },
     {
       "nr": 135,
