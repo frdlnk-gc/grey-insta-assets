@@ -1,5 +1,5 @@
 {
-  "version": 7,
+  "version": 8,
   "posts": [
     {
       "nr": 2,
@@ -945,6 +945,22 @@
       "thema": "Stellenanzeige am Bau"
     },
     {
+      "nr": 158,
+      "datum": "2026-10-07",
+      "zeit": "12:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/190/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 190,
+      "thema": "Story Steckbrief Beruf Gleisbauer",
+      "zielgruppe": "fachkraefte",
+      "vorlage": "steckbrief"
+    },
+    {
       "nr": 128,
       "datum": "2026-10-08",
       "zeit": "08:00",
@@ -1003,6 +1019,22 @@
       "quelle": "mia",
       "entwurf": 98,
       "thema": "Gesellenbrief über Externenprüfung"
+    },
+    {
+      "nr": 159,
+      "datum": "2026-10-09",
+      "zeit": "12:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/164/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 164,
+      "thema": "Story Humor Brotdose",
+      "zielgruppe": "fachkraefte",
+      "vorlage": "humor"
     },
     {
       "nr": 215,
