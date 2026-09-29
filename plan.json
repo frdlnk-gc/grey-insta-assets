@@ -1,5 +1,5 @@
 {
-  "version": 12,
+  "version": 13,
   "posts": [
     {
       "nr": 2,
@@ -1483,6 +1483,22 @@
       "quelle": "mia",
       "entwurf": 122,
       "thema": "SOKA-BAU erstattet Azubi-Vergütung"
+    },
+    {
+      "nr": 166,
+      "datum": "2026-10-21",
+      "zeit": "12:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/177/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 177,
+      "thema": "Story Steckbrief Weg zum Polier",
+      "zielgruppe": "fachkraefte",
+      "vorlage": "steckbrief"
     },
     {
       "nr": 142,
