@@ -1,5 +1,5 @@
 {
-  "version": 15,
+  "version": 16,
   "posts": [
     {
       "nr": 2,
@@ -1755,6 +1755,22 @@
       "quelle": "mia",
       "entwurf": 136,
       "thema": "Verdeckter Stellenmarkt"
+    },
+    {
+      "nr": 170,
+      "datum": "2026-10-28",
+      "zeit": "12:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/185/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 185,
+      "thema": "Story Tipp Beton bei Kälte",
+      "zielgruppe": "fachkraefte",
+      "vorlage": "tipp"
     },
     {
       "nr": 149,
