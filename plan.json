@@ -1,5 +1,5 @@
 {
-  "version": 11,
+  "version": 12,
   "posts": [
     {
       "nr": 2,
@@ -1373,6 +1373,42 @@
       "quelle": "mia",
       "entwurf": 117,
       "thema": "Story Teaser Auflösung Gleisbau"
+    },
+    {
+      "nr": 164,
+      "datum": "2026-10-19",
+      "zeit": "12:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/174/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 174,
+      "thema": "Story Mythos 13. Monatslohn",
+      "zielgruppe": "fachkraefte",
+      "vorlage": "mythos",
+      "teil": 1,
+      "teile": 2
+    },
+    {
+      "nr": 165,
+      "datum": "2026-10-19",
+      "zeit": "12:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/174/kachel-02.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 174,
+      "thema": "Story Mythos 13. Monatslohn",
+      "zielgruppe": "fachkraefte",
+      "vorlage": "mythos",
+      "teil": 2,
+      "teile": 2
     },
     {
       "nr": 224,
