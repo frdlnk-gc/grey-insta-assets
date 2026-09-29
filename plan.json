@@ -1,5 +1,5 @@
 {
-  "version": 8,
+  "version": 9,
   "posts": [
     {
       "nr": 2,
@@ -1105,6 +1105,42 @@
       "quelle": "mia",
       "entwurf": 103,
       "thema": "Story Teaser Auflösung Graben"
+    },
+    {
+      "nr": 160,
+      "datum": "2026-10-12",
+      "zeit": "12:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/166/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 166,
+      "thema": "Story Mythos gelber Schein",
+      "zielgruppe": "fachkraefte",
+      "vorlage": "mythos",
+      "teil": 1,
+      "teile": 2
+    },
+    {
+      "nr": 161,
+      "datum": "2026-10-12",
+      "zeit": "12:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/166/kachel-02.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 166,
+      "thema": "Story Mythos gelber Schein",
+      "zielgruppe": "fachkraefte",
+      "vorlage": "mythos",
+      "teil": 2,
+      "teile": 2
     },
     {
       "nr": 217,
