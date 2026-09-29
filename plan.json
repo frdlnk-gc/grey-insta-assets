@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 7,
   "posts": [
     {
       "nr": 2,
@@ -833,6 +833,42 @@
       "quelle": "mia",
       "entwurf": 89,
       "thema": "Story Teaser Auflösung Tarif"
+    },
+    {
+      "nr": 156,
+      "datum": "2026-10-05",
+      "zeit": "12:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/158/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 158,
+      "thema": "Story Mythos Sicherheitsschuhe",
+      "zielgruppe": "fachkraefte",
+      "vorlage": "mythos",
+      "teil": 1,
+      "teile": 2
+    },
+    {
+      "nr": 157,
+      "datum": "2026-10-05",
+      "zeit": "12:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/158/kachel-02.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 158,
+      "thema": "Story Mythos Sicherheitsschuhe",
+      "zielgruppe": "fachkraefte",
+      "vorlage": "mythos",
+      "teil": 2,
+      "teile": 2
     },
     {
       "nr": 210,
