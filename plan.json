@@ -1,5 +1,5 @@
 {
-  "version": 13,
+  "version": 14,
   "posts": [
     {
       "nr": 2,
@@ -1559,6 +1559,22 @@
       "quelle": "mia",
       "entwurf": 126,
       "thema": "Winterbau: was dir zusteht"
+    },
+    {
+      "nr": 167,
+      "datum": "2026-10-23",
+      "zeit": "12:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/180/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 180,
+      "thema": "Story Humor Walze",
+      "zielgruppe": "fachkraefte",
+      "vorlage": "humor"
     },
     {
       "nr": 229,
