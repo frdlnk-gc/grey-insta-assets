@@ -1,5 +1,5 @@
 {
-  "version": 14,
+  "version": 15,
   "posts": [
     {
       "nr": 2,
@@ -1645,6 +1645,42 @@
       "quelle": "mia",
       "entwurf": 131,
       "thema": "Story Teaser Auflösung Kanal"
+    },
+    {
+      "nr": 168,
+      "datum": "2026-10-26",
+      "zeit": "12:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/182/kachel-01.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 182,
+      "thema": "Story Mythos Attest",
+      "zielgruppe": "fachkraefte",
+      "vorlage": "mythos",
+      "teil": 1,
+      "teile": 2
+    },
+    {
+      "nr": 169,
+      "datum": "2026-10-26",
+      "zeit": "12:00",
+      "typ": "story",
+      "bilder": [
+        "https://frnigthahodfbpsgnhoo.supabase.co/storage/v1/object/public/mia-dateien/instagram/182/kachel-02.jpg"
+      ],
+      "caption": "",
+      "kommentare": [],
+      "quelle": "mia",
+      "entwurf": 182,
+      "thema": "Story Mythos Attest",
+      "zielgruppe": "fachkraefte",
+      "vorlage": "mythos",
+      "teil": 2,
+      "teile": 2
     },
     {
       "nr": 231,
